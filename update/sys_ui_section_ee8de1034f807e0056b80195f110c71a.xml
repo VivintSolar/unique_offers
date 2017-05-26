@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="ee8de1034f807e0056b80195f110c71a" sys_domain="global" table="x_vivso_hr_unique_offers" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:33:56</sys_created_on>
+            <sys_id>8837fe0d4faa7a4056b80195f110c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:33:56</sys_updated_on>
+            <text>Approval history can be found at the bottom of this page.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:33:56</sys_created_on>
+            <sys_id>0c37fe0d4faa7a4056b80195f110c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:33:56</sys_updated_on>
+            <text>User Info</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:33:56</sys_created_on>
+            <sys_id>8c37fe0d4faa7a4056b80195f110c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:33:56</sys_updated_on>
+            <text>Offer Details</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6047fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">9c26720d4faa7a4056b80195f110c7ff</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e047fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6447fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>3</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e447fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>4</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6847fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>5</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e847fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6c47fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>7</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>ec47fe0d4faa7a4056b80195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8837fe0d4faa7a4056b80195f110c70b</element>
+            <position>8</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6047fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e047fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0c37fe0d4faa7a4056b80195f110c70b</element>
+            <position>10</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6447fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e447fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_offer_user</element>
+            <position>12</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6847fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_current_employee</element>
+            <position>13</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e847fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>14</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6c47fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone_number</element>
+            <position>15</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>ec47fe0d4faa7a4056b80195f110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_referral_credit</element>
+            <position>16</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6047fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e047fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_offer_position</element>
+            <position>18</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6447fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>19</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e447fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_report_manager</element>
+            <position>20</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6847fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total_offer_amount</element>
+            <position>21</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e847fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>22</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6c47fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_justification_notes</element>
+            <position>23</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>ec47fe0d4faa7a4056b80195f110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8c37fe0d4faa7a4056b80195f110c70b</element>
+            <position>24</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6047fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>25</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e047fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_retention_advance</element>
+            <position>26</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6447fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_commission_advance</element>
+            <position>27</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e447fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_personal_permit</element>
+            <position>28</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6847fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_recruitment</element>
+            <position>29</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e847fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rsus</element>
+            <position>30</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6c47fe0d4faa7a4056b80195f110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_residuals</element>
+            <position>31</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6c47fe0d4faa7a4056b80195f110c7ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_relocation</element>
+            <position>32</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>ec47fe0d4faa7a4056b80195f110c7ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_request</element>
+            <position>33</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>6047fe0d4faa7a4056b80195f110c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>34</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-05-04 04:34:14</sys_created_on>
+            <sys_id>e047fe0d4faa7a4056b80195f110c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">ee8de1034f807e0056b80195f110c71a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-05-04 04:34:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_vivso_hr_unique_offers</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-01-05 21:43:03</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee8de1034f807e0056b80195f110c71a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_vivso_hr_unique_offers</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+            <sys_update_name>sys_ui_section_ee8de1034f807e0056b80195f110c71a</sys_update_name>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-01-05 21:43:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

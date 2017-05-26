@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="HR Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="14" type="collection">
+        <element attributes="omit_sys_original=true" label="Additional Amount" max_length="15" name="u_additional_amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="u_additional_details" type="string"/>
+        <element label="Additional Request" max_length="40" name="u_additional_request" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="CA Amount" max_length="15" name="u_ca_amount" type="decimal"/>
+        <element label="CA Details" max_length="4000" name="u_ca_details" type="string"/>
+        <element label="Guaranteed" max_length="40" name="u_ca_guaranteed" type="boolean"/>
+        <element label="Guaranteed By" max_length="32" name="u_ca_guaranteed_user" reference="sys_user" type="reference"/>
+        <element label="Commission Advance" max_length="40" name="u_commission_advance" type="boolean"/>
+        <element label="Current Employee" max_length="40" name="u_current_employee" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Quarterly Install Criteria (Vivint Inc)" max_length="40" name="u_install_criteria_inc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quarterly Install Criteria (Vivint Solar)" max_length="40" name="u_install_criteria_solar" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification Notes" max_length="4000" name="u_justification_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Offer Position" max_length="40" name="u_offer_position" type="string">
+            <choice>
+                <element label="Solar Sales Manager" sequence="0" value="SM"/>
+                <element label="District Sales Manager" sequence="1" value="DM"/>
+                <element label="Regional Director of Sales" sequence="2" value="DIR"/>
+                <element label="Regional Vice President of Sales" sequence="3" value="VP"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Offer for" max_length="40" name="u_offer_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="On Permits" max_length="40" name="u_on_permits" type="string"/>
+        <element label="Personal Permits" max_length="40" name="u_personal_permit" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="omit_sys_original=true" label="PP Amount" max_length="15" name="u_pp_amount" type="decimal"/>
+        <element label="PP Details" max_length="4000" name="u_pp_details" type="string"/>
+        <element attributes="omit_sys_original=true" label="RA Amount" max_length="15" name="u_ra_amount" type="decimal"/>
+        <element label="RA Details" max_length="4000" name="u_ra_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install Requirement" max_length="100" name="u_ra_install_req" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Term" max_length="40" name="u_ra_term" type="string">
+            <choice>
+                <element label="1 Year" sequence="0" value="1 Year"/>
+                <element label="2 Year" sequence="1" value="2 Year"/>
+            </choice>
+        </element>
+        <element label="Recruited Before/Within" max_length="40" name="u_recruited_before" type="string"/>
+        <element label="Recruitment" max_length="40" name="u_recruitment" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="On Permits" max_length="40" name="u_recruitment_permit" type="string"/>
+        <element label="Recruitment Details" max_length="4000" name="u_rec_details" type="string"/>
+        <element label="Referral Credit" max_length="32" name="u_referral_credit" reference="sys_user" reference_qual="active=true^employee_numberISNOTEMPTY^EQ" reference_qual_condition="active=true^employee_numberISNOTEMPTY^EQ" type="reference"/>
+        <element label="Relocation" max_length="40" name="u_relocation" type="boolean"/>
+        <element label="Relocation Amount" max_length="15" name="u_relocation_amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="Relocation Years" max_length="40" name="u_relocation_years" type="string">
+            <choice>
+                <element label="1 Year" sequence="0" value="1"/>
+                <element label="2 Years" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="u_reloc_details" type="string"/>
+        <element label="Report to Manager" max_length="32" name="u_report_manager" reference="sys_user" type="reference"/>
+        <element label="Residuals" max_length="40" name="u_residuals" type="boolean"/>
+        <element label="Residuals Vivint Inc" max_length="40" name="u_residual_inc" type="boolean"/>
+        <element label="Residuals Vivint Solar" max_length="40" name="u_residual_solar" type="boolean"/>
+        <element label="$/Month Requested Total (Vivint Inc)" max_length="15" name="u_residual_total_inc" type="decimal"/>
+        <element label="$/Month Requested Total (Vivint Solar)" max_length="15" name="u_residual_total_solar" type="decimal"/>
+        <element label="Details" max_length="4000" name="u_res_details" type="string"/>
+        <element label="Retention Advance" max_length="40" name="u_retention_advance" type="boolean"/>
+        <element label="RSUs" max_length="40" name="u_rsus" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="RSU Amount" max_length="15" name="u_rsu_amount" type="decimal"/>
+        <element label="RSU Details" max_length="4000" name="u_rsu_details" type="string"/>
+        <element attributes="omit_sys_original=true" label="Total Offer Amount" max_length="15" name="u_total_offer_amount" read_only="true" type="decimal"/>
+        <element attributes="omit_sys_original=true" label="Total per Recruit" max_length="15" name="u_total_per_recruit" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="4" label="Vesting Schedule" max_length="40" name="u_vesting_schedule" type="string">
+            <choice>
+                <element label="2 Years" sequence="0" value="2"/>
+                <element label="4 Years" sequence="1" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

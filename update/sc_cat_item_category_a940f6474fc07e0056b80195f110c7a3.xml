@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="HR Unique Offers">c8cd2e434fc07e0056b80195f110c7cb</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-01-06 02:34:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a940f6474fc07e0056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.HR Unique Offers</sys_name>
+        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sc_cat_item_category_a940f6474fc07e0056b80195f110c7a3</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-01-06 02:34:37</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

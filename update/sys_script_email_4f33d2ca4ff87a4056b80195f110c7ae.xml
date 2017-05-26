@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>offer_details_sysapproval</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	
+	template.print('<h3><u>User Details</u></h3>');
+	template.print('<strong>Offer for:</strong> ' + current.sysapproval.u_offer_user + '<br />');
+	template.print('<strong>Email:</strong> ' + current.sysapproval.u_email + '<br />');
+	template.print('<strong>Phone Number:</strong> ' + current.sysapproval.u_phone_number + '<br />');
+	template.print('<strong>Offer Postion:</strong> ' + current.sysapproval.u_offer_position.getDisplayValue() + '<br />');
+	template.print('<strong>Location:</strong> ' + current.sysapproval.location.getDisplayValue() + '<br />');
+	template.print('<strong>Report to Manager:</strong> ' + current.sysapproval.u_report_manager.getDisplayValue() + '<br />');
+	if (!current.sysapproval.u_referral_credit.nil())
+		template.print('<strong>Referral Credit:</strong> ' + current.sysapproval.u_referral_credit.getDisplayValue() + '<br />');
+	template.print('<strong>Justification Notes:</strong><br />');
+	template.space(5);
+	template.print(current.sysapproval.u_justification_notes.getDisplayValue() + '<br />');
+	
+	template.print('<hr>');
+	
+	if(current.sysapproval.u_retention_advance == true) {
+		template.print('<h3><u>Retention Advance</u></h3>');
+		template.print('<strong>Amount:</strong> $' + current.sysapproval.u_ra_amount + '<br />');
+		template.print('<strong>Term:</strong> ' + current.sysapproval.u_ra_term.getDisplayValue() + '<br />');
+		template.print('<strong>Install Requirement:</strong> ' + current.sysapproval.u_ra_install_req + '<br />');
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_ra_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_commission_advance == true) {
+		template.print('<h3><u>Commission Advance</u></h3>');
+		template.print('<strong>Amount:</strong> $' + current.sysapproval.u_ca_amount + '<br />');
+		if(current.sysapproval.u_guaranteed == true) {
+			template.print('<strong>Guaranteed by ' + current.sysapproval.u_ca_guaranteed_user.getDisplayValue() + '</strong><br />');
+		}
+		else {
+			template.print('<strong>Not guaranteed</strong><br />');
+		}
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_ca_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_personal_permit == true) {
+		template.print('<h3><u>Personal Permits</u></h3>');
+		template.print('<strong>Amount:</strong> $' + current.sysapproval.u_pp_amount + '<br />');
+		template.print('<strong>On Permits:</strong> ' + current.sysapproval.u_on_permits + '<br />');
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_pp_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_recruitment == true) {
+		template.print('<h3><u>Recruitment</u></h3>');
+		template.print('<strong>Total per Recruit:</strong> $' + current.sysapproval.u_ca_amount + '<br />');
+		template.print('<strong>On Permits:</strong> ' + current.sysapproval.u_recruitment_permit + '<br />');
+		template.print('<strong>Recruited Before/Within:</strong> ' + current.sysapproval.u_recruited_before + '<br />');
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_rec_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_rsus == true) {
+		template.print('<h3><u>RSUs</u></h3>');
+		template.print('<strong>Amount:</strong> $' + current.sysapproval.u_rsu_amount + '<br />');
+		template.print('<strong>Vesting Schedule:</strong> ' + current.sysapproval.u_vesting_schedule.getDisplayValue() + '<br />');
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_rsu_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_residuals == true) {
+		template.print('<h3><u>Residuals</u></h3>');
+		if(current.u_residual_inc == true) {
+			template.print('<strong>Vivint Inc - $/Month Requested Total:</strong> $' + current.sysapproval.u_residual_total_inc + '<br />');
+			template.print('<strong>Quarterly Install Criteria:</strong> ' + current.sysapproval.u_install_criteria_inc + '<br />');
+		}
+		if(current.sysapproval.u_residual_solar == true) {
+			template.print('<strong>Vivint Solar - $/Month Requested Total:</strong> $' + current.sysapproval.u_residual_total_solar + '<br />');
+			template.print('<strong>Quarterly Install Criteria:</strong> ' + current.sysapproval.u_install_criteria_solar + '<br />');
+		}
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_res_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_relocation == true) {
+		template.print('<h3><u>Relocation</u></h3>');
+		template.print('<strong>Amount:</strong> $' + current.sysapproval.u_relocation_amount + '<br />');
+		template.print('<strong>Years:</strong> ' + current.sysapproval.u_relocation_years.getDisplayValue() + '<br />');
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_reloc_details.getDisplayValue() + '<br />');
+	}
+	
+	if(current.sysapproval.u_additional_request == true) {
+		template.print('<h3><u>Additional Request</u></h3>');
+		template.print('<strong>Amount:</strong> $' + current.sysapproval.u_additional_amount + '<br />');
+		template.print('<strong>Details:</strong> ' + current.sysapproval.u_additional_details.getDisplayValue() + '<br />');
+	}
+	
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-02-09 05:04:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4f33d2ca4ff87a4056b80195f110c7ae</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>offer_details_sysapproval</sys_name>
+        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sys_script_email_4f33d2ca4ff87a4056b80195f110c7ae</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-05-04 04:13:54</sys_updated_on>
+    </sys_script_email>
+</record_update>

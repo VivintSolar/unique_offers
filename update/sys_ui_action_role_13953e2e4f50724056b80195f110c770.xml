@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-01-17 17:03:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>13953e2e4f50724056b80195f110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_vivso_hr_unique.user</sys_name>
+        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_ui_action display_value="Re-route">aa9536ee4f50724056b80195f110c7a8</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_13953e2e4f50724056b80195f110c770</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-01-17 17:03:54</sys_updated_on>
+        <sys_user_role display_value="x_vivso_hr_unique.user" name="x_vivso_hr_unique.user">b78bac4f4f007e0056b80195f110c7f4</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

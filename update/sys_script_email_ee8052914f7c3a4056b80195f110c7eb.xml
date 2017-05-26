@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>hr_unique_report_calcs</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	
+	/****** SET VARIABLES ******/
+	var closedDuration = 0;
+	var totalCommitments = 0;
+	var totalPerRecruit = 0;
+	var totalOffers = 0;
+	var totalRA = 0;
+	var totalPermit = 0;
+	var totalRSU = 0;
+	var totalRelocation = 0;
+	
+	/* Total # of Unique Offers */
+	var count = new GlideAggregate("x_vivso_hr_unique_offers");
+	count.addAggregate('COUNT');
+	count.query();
+	if(count.next()) {
+		totalOffers = count.getAggregate('COUNT');
+		template.print('<strong>Total Number of Offers:</strong> ' + totalOffers + '<br />');
+	}
+	
+	
+	/****** CALC FOR BELOW VALUES ******/
+	var totalCount = new GlideAggregate("x_vivso_hr_unique_offers");
+	totalCount.addAggregate('SUM', 'u_total_offer_amount');
+	totalCount.addAggregate('SUM', 'u_total_per_recruit');
+	totalCount.addAggregate('SUM', 'u_ra_amount');
+	totalCount.addAggregate('SUM', 'u_pp_amount');
+	totalCount.addAggregate('SUM', 'u_rsu_amount');
+	totalCount.addAggregate('SUM', 'u_relocation_amount');
+	totalCount.setGroup(false);
+	totalCount.query();
+	while (totalCount.next()) {
+		totalCommitments = totalCount.getAggregate('SUM', 'u_total_offer_amount');
+		totalPerRecruit = totalCount.getAggregate('SUM', 'u_total_per_recruit');
+		totalRA = totalCount.getAggregate('SUM', 'u_ra_amount');
+		totalPermit = totalCount.getAggregate('SUM', 'u_pp_amount');
+		totalRSU = totalCount.getAggregate('SUM', 'u_rsu_amount');
+		totalRelocation = totalCount.getAggregate('SUM', 'u_relocation_amount');
+	}
+	
+	/* Total $ Commitments */
+	template.print('<strong>Total Commitments:</strong> $' + Math.round(totalCommitments) + '<br />');
+	
+	/* Average Offer Per Recruit */
+	var avgPerRecruit = totalCommitments/totalOffers;
+	template.print('<strong>Average Offer Per Recruit:</strong> $' + Math.round(avgPerRecruit) + '<br />');
+	
+	/* Average Processing Days (from HR receipt to offer sent to candidate) */
+	//.getDurationValue() returns something like 18:00:00
+	var closedOffers = new GlideAggregate("x_vivso_hr_unique_offers");
+	closedOffers.addQuery('active','false');
+	closedOffers.addQuery('state', '!=', 4);
+	closedOffers.addAggregate('AVG', 'business_duration');
+	closedOffers.query();
+	if (closedOffers.next()) {
+		closedDuration = closedOffers.getAggregate('AVG', 'business_duration');
+		var dur = new GlideDuration(closedDuration);
+		template.print('<strong>Average time from submission to candidate offer sent:</strong> ' + dur.getDisplayValue() + '<br />');
+	}
+	
+	
+	template.print('<hr>');
+	
+	/* Offers Pending Approvals */
+	var pendCount = new GlideAggregate("x_vivso_hr_unique_offers");
+	pendCount.addQuery('active','true');
+	pendCount.addAggregate('COUNT');
+	pendCount.query();
+	if (pendCount.next())
+		template.print('<strong>Pending Offers:</strong> ' + pendCount.getAggregate('COUNT') + '<br />');
+	
+	/* Display pending offers */
+	var activeOffer = new GlideRecord("x_vivso_hr_unique_offers");
+	activeOffer.addQuery("active", "true");
+	activeOffer.query();
+	while (activeOffer.next()) {
+		var pendApp = new GlideRecord("sysapproval_approver");
+		pendApp.addQuery("sysapproval", activeOffer.sys_id);
+		pendApp.addQuery("state","requested");
+		pendApp.query();
+		var approvalUser = '';
+		while (pendApp.next()) {
+			approvalUser += pendApp.approver.getDisplayValue() + ', ';
+		}
+		// Name (Offer Number) - pending approval from <Name(s)>
+		template.space(5);
+		template.print("-" + pendApp.sysapproval.u_offer_user + ' (' + pendApp.sysapproval.getDisplayValue() + ') - pending approval from ' + approvalUser + '<br />');
+	}
+	
+	template.print('<hr>');
+	
+	/* Total Per Recruit Commitments */
+	template.print('<strong>Total Per Recruit Commitments:</strong> $' + Math.round(totalPerRecruit) + '<br />');
+	
+	/* Recruiting Commitment Range */
+	template.space(5);
+	template.print('<strong>Commitment Range (cost of 1-10 recruits/offer):</strong> $' + Math.round(totalPerRecruit) + ' - $' + (totalPerRecruit*10) + '<br />');
+	
+	
+	template.print('<hr>');
+	
+	/* Total Retention Advances */
+	template.print('<strong>Total Retention Advances:</strong> $' + Math.round(totalRA) + '<br />');
+	
+	/* Total Permits */
+	template.print('<strong>Total Permits:</strong> $' + Math.round(totalPermit) + '<br />');
+	
+	/* Totals RSU */
+	template.print('<strong>Total RSU:</strong> $' + Math.round(totalRSU) + '<br />');
+	
+	/* Totals Relocation */
+	template.print('<strong>Total Relocation:</strong> $' + Math.round(totalRelocation) + '<br />');
+	
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-02-06 20:34:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ee8052914f7c3a4056b80195f110c7eb</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>hr_unique_report_calcs</sys_name>
+        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sys_script_email_ee8052914f7c3a4056b80195f110c7eb</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-05-04 03:24:30</sys_updated_on>
+    </sys_script_email>
+</record_update>
