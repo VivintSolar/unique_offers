@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="HR Unique Offers">7f8bac4f4f007e0056b80195f110c7f3</application>
+        <application display_value="Unique Offers">7f8bac4f4f007e0056b80195f110c7f3</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -17,11 +17,11 @@
         <mobile_title>HR Unique Offers</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_vivso_hr_unique_offers</name>
-        <order>100</order>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_vivso_hr_unique.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -31,18 +31,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c870c92d136cb2401c24bda12244b0f1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Completed</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Closed Offers</sys_name>
         <sys_overrides/>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_app_module_c870c92d136cb2401c24bda12244b0f1</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-02-01 17:25:01</sys_updated_on>
+        <sys_updated_on>2017-08-02 17:13:06</sys_updated_on>
         <timeline_page/>
-        <title>Completed</title>
+        <title>Closed Offers</title>
         <u_basic_module/>
         <u_count_color/>
         <u_count_filter/>

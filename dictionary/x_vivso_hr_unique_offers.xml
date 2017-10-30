@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="HR Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="14" type="collection">
+    <element audit="true" extends="task" label="Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="16" type="collection">
         <element attributes="omit_sys_original=true" label="Additional Amount" max_length="15" name="u_additional_amount" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="u_additional_details" type="string"/>
         <element label="Additional Request" max_length="40" name="u_additional_request" type="boolean"/>
         <element attributes="omit_sys_original=true" label="CA Amount" max_length="15" name="u_ca_amount" type="decimal"/>
         <element label="CA Details" max_length="4000" name="u_ca_details" type="string"/>
         <element label="Guaranteed" max_length="40" name="u_ca_guaranteed" type="boolean"/>
-        <element label="Guaranteed By" max_length="32" name="u_ca_guaranteed_user" reference="sys_user" type="reference"/>
+        <element label="Guaranteed By" max_length="40" name="u_ca_guaranteed_user" type="string"/>
         <element label="Commission Advance" max_length="40" name="u_commission_advance" type="boolean"/>
+        <element label="Contingent Cleared &amp; Offer Sent to Commissions" max_length="40" name="u_contingent_cleared" type="boolean"/>
         <element label="Current Employee" max_length="40" name="u_current_employee" type="boolean"/>
+        <element label="DocuSign completed" max_length="40" name="u_docusign_completed" type="boolean"/>
+        <element label="DocuSign required" max_length="40" name="u_docusign_req" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label=" Quarterly Install Criteria (Vivint Inc)" max_length="40" name="u_install_criteria_inc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="40" name="u_employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Final Disposition" max_length="40" name="u_final_disposition" type="string">
+            <choice>
+                <element label="Canceled" value="canceled"/>
+                <element label="Complete" value="complete"/>
+                <element label="Declined Offer" value="declined"/>
+                <element label="Failed BCG" value="bgc"/>
+                <element label="Rescinded" value="rescinded"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Quarterly Install Criteria (Vivint Inc)" max_length="40" name="u_install_criteria_inc" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Quarterly Install Criteria (Vivint Solar)" max_length="40" name="u_install_criteria_solar" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification Notes" max_length="4000" name="u_justification_notes" type="string"/>
+        <element label="Offer Letter required" max_length="40" name="u_offer_letter_req" read_only="true" type="boolean"/>
+        <element label="Offer Letter signed" max_length="40" name="u_offer_letter_signed" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Offer Position" max_length="40" name="u_offer_position" type="string">
             <choice>
                 <element label="Solar Sales Manager" sequence="0" value="SM"/>
@@ -22,12 +37,14 @@
                 <element label="Regional Vice President of Sales" sequence="3" value="VP"/>
             </choice>
         </element>
+        <element label="Offer Sent Date" max_length="40" name="u_offer_sent_date" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Offer for" max_length="40" name="u_offer_user" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="On Permits" max_length="40" name="u_on_permits" type="string"/>
         <element label="Personal Permits" max_length="40" name="u_personal_permit" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
         <element attributes="omit_sys_original=true" label="PP Amount" max_length="15" name="u_pp_amount" type="decimal"/>
         <element label="PP Details" max_length="4000" name="u_pp_details" type="string"/>
+        <element label="PP $/permit" max_length="15" name="u_pp_per_permit" type="decimal"/>
         <element attributes="omit_sys_original=true" label="RA Amount" max_length="15" name="u_ra_amount" type="decimal"/>
         <element label="RA Details" max_length="4000" name="u_ra_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Install Requirement" max_length="100" name="u_ra_install_req" type="string"/>
@@ -37,9 +54,16 @@
                 <element label="2 Year" sequence="1" value="2 Year"/>
             </choice>
         </element>
-        <element label="Recruited Before/Within" max_length="40" name="u_recruited_before" type="string"/>
-        <element label="Recruitment" max_length="40" name="u_recruitment" type="boolean"/>
+        <element choice="3" default="30" label="Recruited Before/Within" max_length="40" name="u_recruited_before" type="string">
+            <choice>
+                <element label="30 Days" sequence="10" value="30"/>
+                <element label="60 Days" sequence="20" value="60"/>
+                <element label="90 Days" sequence="30" value="90"/>
+            </choice>
+        </element>
+        <element label="Recruiting Permits" max_length="40" name="u_recruitment" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="On Permits" max_length="40" name="u_recruitment_permit" type="string"/>
+        <element label="Recruitment $/permit" max_length="15" name="u_recruitment_per_permit" type="decimal"/>
         <element label="Recruitment Details" max_length="4000" name="u_rec_details" type="string"/>
         <element label="Referral Credit" max_length="32" name="u_referral_credit" reference="sys_user" reference_qual="active=true^employee_numberISNOTEMPTY^EQ" reference_qual_condition="active=true^employee_numberISNOTEMPTY^EQ" type="reference"/>
         <element label="Relocation" max_length="40" name="u_relocation" type="boolean"/>

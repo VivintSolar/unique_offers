@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_vivso_hr_unique_offers" version="2" view="RPT4ba4ae4613e44b001c24bda12244b0dd">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="43a4ae4613e44b001c24bda12244b0de">87a4ae4613e44b001c24bda12244b0de</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-14 15:52:33</sys_created_on>
+            <sys_id>8ba4ae4613e44b001c24bda12244b0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-14 15:52:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_offer_user</element>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="43a4ae4613e44b001c24bda12244b0de">87a4ae4613e44b001c24bda12244b0de</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-14 15:52:33</sys_created_on>
+            <sys_id>0fa4ae4613e44b001c24bda12244b0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-14 15:52:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_at</element>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="43a4ae4613e44b001c24bda12244b0de">87a4ae4613e44b001c24bda12244b0de</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-14 15:52:33</sys_created_on>
+            <sys_id>8fa4ae4613e44b001c24bda12244b0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-14 15:52:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="43a4ae4613e44b001c24bda12244b0de">87a4ae4613e44b001c24bda12244b0de</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-14 15:52:33</sys_created_on>
+            <sys_id>03a4ae4613e44b001c24bda12244b0df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-14 15:52:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_offer_sent_date</element>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="43a4ae4613e44b001c24bda12244b0de">87a4ae4613e44b001c24bda12244b0de</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-14 15:52:33</sys_created_on>
+            <sys_id>83a4ae4613e44b001c24bda12244b0df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-14 15:52:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_vivso_hr_unique_offers</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-14 15:52:33</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87a4ae4613e44b001c24bda12244b0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_vivso_hr_unique_offers</sys_name>
+            <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+            <sys_update_name>sys_ui_list_x_vivso_hr_unique_offers_RPT4ba4ae4613e44b001c24bda12244b0dd</sys_update_name>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-14 15:52:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt4ba4ae4613e44b001c24bda12244b0dd" name="RPT4ba4ae4613e44b001c24bda12244b0dd">43a4ae4613e44b001c24bda12244b0de</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

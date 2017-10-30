@@ -16,10 +16,10 @@
             <sys_id>cdeddecf4f807e0056b80195f110c731</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Personal Permits</sys_name>
-            <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+            <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+            <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
             <sys_update_name>sys_documentation_x_vivso_hr_unique_offers_u_personal_permit_en</sys_update_name>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-01-06 01:14:18</sys_updated_on>

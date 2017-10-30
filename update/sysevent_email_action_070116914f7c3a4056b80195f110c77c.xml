@@ -33,6 +33,7 @@
 <body bgcolor="#f6f6f6" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; height: 100%; -webkit-text-size-adjust: none; width: 100% !important; margin: 0; padding: 0;">
 <style type="text/css">
 .btn-primary a:hover { background-color: #FF8200 !important; border: solid 1px #FF8200 !important; border-width: 10px 20px !important; }
+.details tr:hover { background-color: lightgray !important; }
 ></style>
     
 <!--[if mso]>
@@ -53,10 +54,26 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
                         <tr style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
                             <td style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
                                 <img src="http://wwwassets.s3.amazonaws.com/global/solar/home/Vivint-Solar-Logo.png" height="40" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
-                                <h1 style="font-family: 'Lato', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 28px; line-height: 1.2em; color: #FF8200; font-weight: 300; margin: 40px 0 10px; padding: 0;">Unique Sales Offer Activity</h1>
-                                <p style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">${mail_script:hr_unique_report_calcs}</p>
+                                <h1 style="font-family: 'Lato', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 28px; line-height: 1.2em; color: #FF8200; font-weight: 300; margin: 40px 0 10px; padding: 0;">Unique Offer Activity</h1>
+								<p style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">If you have questions about any of this information, please contact Ben Harper.</p>
+								<br style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
+								<table class="details" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; width: 100%; border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #ddd;">
+                                    <th style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.6em; color: white; border-collapse: collapse; background-color: #656569; margin: 0; padding: 5px; border: 1px solid #ddd;" bgcolor="#656569">Open Offer Details</th>
+                                    <tr style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
+                                        <td style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; border-collapse: collapse; margin: 0; padding: 5px; border: 1px solid #ddd;">${mail_script:unique_activity_inprocess_totals}</td>
+                                    </tr>
+									<tr style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; background-color: #f6f6f6; margin: 0; padding: 0;" bgcolor="#f6f6f6">
+                                        <td style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; border-collapse: collapse; margin: 0; padding: 5px; border: 1px solid #ddd;">${mail_script:unique_activity_inprocess_details}</td>
+                                    </tr>
+                                </table>
+								<br style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;"><br style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
+								<table class="details" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; width: 100%; border-collapse: collapse; margin: 0; padding: 0; border: 1px solid #ddd;">
+                                    <th style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.6em; color: white; border-collapse: collapse; background-color: #656569; margin: 0; padding: 5px; border: 1px solid #ddd;" bgcolor="#656569">Closed Offer Details</th>
+                                    <tr style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
+                                        <td style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; border-collapse: collapse; margin: 0; padding: 5px; border: 1px solid #ddd;">${mail_script:unique_activity_completed}</td>
+                                    </tr>
+                                </table>
                                 <br style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
-                                <p style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">If you have questions about any of this information, please contact Ben Harper.</p>
                             </td>
                         </tr>
                     </table>
@@ -83,7 +100,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups>a58e25634fd0b24056b80195f110c70d,696ee1a34fd0b24056b80195f110c7be,9b57b27a4f94724056b80195f110c71c,c86ab6ba4f94724056b80195f110c7e4,2a2af67a4f94724056b80195f110c7de,49b4bef64f94724056b80195f110c70c,4166727a4f94724056b80195f110c73e</recipient_groups>
+        <recipient_groups>df387d074f807e0056b80195f110c7ef,8293dc934f7fba0056b80195f110c7e8,486310d34f7fba0056b80195f110c773,1a43d0db4f3fba0056b80195f110c706,c1fd23434f3fba0056b80195f110c7d7,69f2d0134f3fba0056b80195f110c75a,2bb2dc534f3fba0056b80195f110c7dc,d3d2d0134f3fba0056b80195f110c759</recipient_groups>
         <recipient_users/>
         <reply_to>ben.harper@vivintsolar.com</reply_to>
         <send_self>true</send_self>
@@ -98,16 +115,16 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>070116914f7c3a4056b80195f110c77c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Activity Reporting Email</sys_name>
         <sys_overrides/>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sysevent_email_action_070116914f7c3a4056b80195f110c77c</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-04-10 17:58:54</sys_updated_on>
+        <sys_updated_on>2017-08-10 22:29:10</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

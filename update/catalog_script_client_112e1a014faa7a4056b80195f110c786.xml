@@ -7,7 +7,7 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="HR Unique Offers">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
+        <cat_item display_value="Submit New Unique Offer">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
         <cat_variable>IO:e7fcd6014faa7a4056b80195f110c78d</cat_variable>
         <condition/>
         <description/>
@@ -38,17 +38,17 @@
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-05-04 02:44:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>112e1a014faa7a4056b80195f110c786</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Validation for u_relocation_amount</sys_name>
         <sys_overrides/>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>catalog_script_client_112e1a014faa7a4056b80195f110c786</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
         <sys_updated_on>2017-05-04 02:44:31</sys_updated_on>

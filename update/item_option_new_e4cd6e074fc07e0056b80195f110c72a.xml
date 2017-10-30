@@ -2,8 +2,8 @@
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
-        <cat_item display_value="HR Unique Offers">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
+        <attributes>ref_qual_elements=location,ref_auto_completer=AJAXTableCompleter,ref_ac_columns=employee_number,ref_ac_columns_search=true</attributes>
+        <cat_item display_value="Submit New Unique Offer">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -18,22 +18,22 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <field/>
+        <field>u_report_manager</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>name</lookup_label>
         <lookup_price/>
-        <lookup_table/>
-        <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_table>sys_user</lookup_table>
+        <lookup_unique>true</lookup_unique>
+        <lookup_value>sys_id</lookup_value>
         <macro/>
         <mandatory>true</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>u_report_manager</name>
@@ -47,7 +47,7 @@
         <record/>
         <record_producer_table>x_vivso_hr_unique_offers</record_producer_table>
         <reference>sys_user</reference>
-        <reference_qual>active=true^employee_numberISNOTEMPTY^department=0cc5dda14f04020063d4650f0310c767^titleNOT LIKESolar Sales Manager^EQ</reference_qual>
+        <reference_qual>javascript: 'active=true^employee_numberISNOTEMPTY^department=0cc5dda14f04020063d4650f0310c767^titleNOT LIKESolar Sales Manager';</reference_qual>
         <reference_qual_condition table="sys_user">active=true^employee_numberISNOTEMPTY^department=0cc5dda14f04020063d4650f0310c767^titleNOT LIKESolar Sales Manager^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="employee_number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item display_table="cmn_department" display_value="Solar Sales" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="0cc5dda14f04020063d4650f0310c767"/>
@@ -64,21 +64,21 @@
         <sys_created_on>2017-01-06 02:23:38</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>e4cd6e074fc07e0056b80195f110c72a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Report to Manager</sys_name>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>item_option_new_e4cd6e074fc07e0056b80195f110c72a</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-01-31 16:44:48</sys_updated_on>
+        <sys_updated_on>2017-10-16 15:20:21</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set/>
         <visibility>1</visibility>

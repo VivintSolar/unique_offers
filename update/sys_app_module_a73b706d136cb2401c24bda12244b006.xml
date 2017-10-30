@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="HR Unique Offers">7f8bac4f4f007e0056b80195f110c7f3</application>
+        <application display_value="Unique Offers">7f8bac4f4f007e0056b80195f110c7f3</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -21,7 +21,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_vivso_hr_unique.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -31,16 +31,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a73b706d136cb2401c24bda12244b006</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Pending Approval</sys_name>
         <sys_overrides/>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_app_module_a73b706d136cb2401c24bda12244b006</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-02-01 17:23:48</sys_updated_on>
+        <sys_updated_on>2017-08-02 17:11:24</sys_updated_on>
         <timeline_page/>
         <title>Pending Approval</title>
         <u_basic_module/>
@@ -51,7 +51,7 @@
         <u_sort_order/>
         <u_tablet_only>false</u_tablet_only>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>basic_details</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

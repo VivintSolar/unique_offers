@@ -7,7 +7,7 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="HR Unique Offers">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
+        <cat_item display_value="Submit New Unique Offer">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
         <cat_variable>IO:20cd6e074fc07e0056b80195f110c727</cat_variable>
         <condition/>
         <description/>
@@ -38,17 +38,17 @@
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-19 20:46:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>80c6e9af4f90b24056b80195f110c74c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Validation for u_ra_amount</sys_name>
         <sys_overrides/>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>catalog_script_client_80c6e9af4f90b24056b80195f110c74c</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
         <sys_updated_on>2017-01-19 20:50:46</sys_updated_on>

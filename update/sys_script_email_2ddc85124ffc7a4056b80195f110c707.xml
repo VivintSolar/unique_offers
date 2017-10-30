@@ -32,25 +32,27 @@
 		template.print('<h3><u>Commission Advance</u></h3>');
 		template.print('<strong>Amount:</strong> $' + current.u_ca_amount + '<br />');
 		if(current.u_guaranteed == true) {
-			template.print('<strong>Guaranteed by ' + current.u_ca_guaranteed_user.getDisplayValue() + '</strong><br />');
+			template.print('<strong>Guaranteed by ' + current.u_ca_guaranteed_user + '</strong><br />');
 		}
 		else {
 			template.print('<strong>Not guaranteed</strong><br />');
 		}
-		template.print('<strong>Details:</strong> ' + current.u_ca_details + '<br />');
+		template.print('<strong>Details:</strong> ' + current.u_ca_details.getDisplayValue() + '<br />');
 	}
 	
 	if(current.u_personal_permit == true) {
 		template.print('<h3><u>Personal Permits</u></h3>');
 		template.print('<strong>Amount:</strong> $' + current.u_pp_amount + '<br />');
 		template.print('<strong>On Permits:</strong> ' + current.u_on_permits + '<br />');
+		template.print('<strong>$/Permit:</strong> $' + current.u_pp_per_permit + '<br />');
 		template.print('<strong>Details:</strong> ' + current.u_pp_details.getDisplayValue() + '<br />');
 	}
 	
 	if(current.u_recruitment == true) {
 		template.print('<h3><u>Recruitment</u></h3>');
-		template.print('<strong>Total per Recruit:</strong> $' + current.u_ca_amount + '<br />');
+		template.print('<strong>Total per Recruit:</strong> $' + current.u_total_per_recruit + '<br />');
 		template.print('<strong>On Permits:</strong> ' + current.u_recruitment_permit + '<br />');
+		template.print('<strong>$/Permit:</strong> $' + current.u_recruitment_per_permit + '<br />');
 		template.print('<strong>Recruited Before/Within:</strong> ' + current.u_recruited_before + '<br />');
 		template.print('<strong>Details:</strong> ' + current.u_rec_details.getDisplayValue() + '<br />');
 	}
@@ -95,14 +97,14 @@
         <sys_created_on>2017-02-09 18:11:49</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>2ddc85124ffc7a4056b80195f110c707</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>offer_details_current</sys_name>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_script_email_2ddc85124ffc7a4056b80195f110c707</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-05-04 04:15:08</sys_updated_on>
+        <sys_updated_on>2017-08-08 22:04:46</sys_updated_on>
     </sys_script_email>
 </record_update>

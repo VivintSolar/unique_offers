@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label> Quarterly Install Criteria (Vivint Inc)</column_label>
+        <column_label>Quarterly Install Criteria (Vivint Inc)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,16 +47,16 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-05-04 02:12:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>70c6da4d4f6a7a4056b80195f110c7b2</sys_id>
+        <sys_id>e5430aaa4f17760056b80195f110c78c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name> Quarterly Install Criteria (Vivint Inc)</sys_name>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_name>Quarterly Install Criteria (Vivint Inc)</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_dictionary_x_vivso_hr_unique_offers_u_install_criteria_inc</sys_update_name>
-        <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-05-04 02:12:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-06-14 23:25:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_vivso_hr_unique_offers</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_vivso_hr_unique_offers">commentsVALCHANGES^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Unique Offer Commented Event</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current) {
+	
+	var approvalUsers = '';
+	
+	var approvers = new GlideRecord("sysapproval_approver");
+	approvers.addQuery("document_id", current.sys_id);
+	approvers.query();
+	while (approvers.next()) {
+		approvalUsers += approvers.approver + ',';
+	}
+
+	gs.eventQueue('x_vivso_hr_unique.offer_commented', current, approvalUsers);
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-14 15:47:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>108bca84135907001c24bda12244b0f0</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Unique Offer Commented Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sys_script_108bca84135907001c24bda12244b0f0</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-10-30 21:05:32</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=108bca84135907001c24bda12244b0f0"/>
+</record_update>

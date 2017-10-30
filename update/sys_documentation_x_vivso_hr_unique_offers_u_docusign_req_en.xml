@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_docusign_req" label="DocuSign required" language="en" table="x_vivso_hr_unique_offers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_docusign_req</element>
+            <help/>
+            <hint/>
+            <label>DocuSign required</label>
+            <language>en</language>
+            <name>x_vivso_hr_unique_offers</name>
+            <plural>DocuSign required</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-02 20:42:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a8f3795e4f50830056b80195f110c740</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>DocuSign required</sys_name>
+            <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+            <sys_update_name>sys_documentation_x_vivso_hr_unique_offers_u_docusign_req_en</sys_update_name>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-02 20:42:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category_user_criteria_mtom">
+    <sc_category_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_category display_value="Unique Offers">03c978974fbfba0056b80195f110c7e1</sc_category>
+        <sys_class_name>sc_category_user_criteria_mtom</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-14 15:08:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8e513ec44f800f0056b80195f110c7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unique Offers.HR Unique Offers</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sc_category_user_criteria_mtom_8e513ec44f800f0056b80195f110c7d4</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-14 15:08:40</sys_updated_on>
+        <user_criteria display_value="Unique Offers">5a1beed84f58be0056b80195f110c747</user_criteria>
+    </sc_category_user_criteria_mtom>
+</record_update>

@@ -2,19 +2,19 @@
 <record_update table="sys_scope_privilege">
     <sys_scope_privilege action="INSERT_OR_UPDATE">
         <operation>execute</operation>
-        <source_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</source_scope>
+        <source_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</source_scope>
         <status>allowed</status>
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-02-09 01:02:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4541adca4fb87a4056b80195f110c7d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ScopedWorkflow</sys_name>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_scope_privilege_4541adca4fb87a4056b80195f110c7d5</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
         <sys_updated_on>2017-02-09 01:02:35</sys_updated_on>

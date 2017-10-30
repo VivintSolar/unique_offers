@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Recruited Before/Within</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>30</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,16 +52,16 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-11 00:21:09</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>5a510c784fdcbe0056b80195f110c7cb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>e5430aaa4f17760056b80195f110c79e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Recruited Before/Within</sys_name>
-        <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_dictionary_x_vivso_hr_unique_offers_u_recruited_before</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-01-11 00:21:09</sys_updated_on>
+        <sys_updated_on>2017-08-02 16:25:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

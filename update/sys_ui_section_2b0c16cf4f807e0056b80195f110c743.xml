@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="Recruitment" section_id="2b0c16cf4f807e0056b80195f110c743" sys_domain="global" table="x_vivso_hr_unique_offers" version="3" view="">
+    <sys_ui_section caption="Recruiting Permits" section_id="2b0c16cf4f807e0056b80195f110c743" sys_domain="global" table="x_vivso_hr_unique_offers" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_total_per_recruit</element>
             <position>0</position>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-01-17 17:02:51</sys_created_on>
-            <sys_id>c370a2324f94724056b80195f110c7c8</sys_id>
+            <sys_created_on>2017-08-02 16:31:37</sys_created_on>
+            <sys_id>528af0d64f10830056b80195f110c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Recruitment" display_value="Recruitment" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
+            <sys_ui_section caption="Recruiting Permits" display_value="Recruiting Permits" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-01-17 17:02:51</sys_updated_on>
+            <sys_updated_on>2017-08-02 16:31:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,60 +19,74 @@
             <element>u_recruitment_permit</element>
             <position>1</position>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-01-17 17:02:51</sys_created_on>
-            <sys_id>4770a2324f94724056b80195f110c7c8</sys_id>
+            <sys_created_on>2017-08-02 16:31:37</sys_created_on>
+            <sys_id>d28af0d64f10830056b80195f110c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Recruitment" display_value="Recruitment" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
+            <sys_ui_section caption="Recruiting Permits" display_value="Recruiting Permits" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-01-17 17:02:51</sys_updated_on>
+            <sys_updated_on>2017-08-02 16:31:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_recruitment_per_permit</element>
+            <position>2</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-08-02 16:31:37</sys_created_on>
+            <sys_id>568af0d64f10830056b80195f110c746</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recruiting Permits" display_value="Recruiting Permits" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-08-02 16:31:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_recruited_before</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-01-17 17:02:51</sys_created_on>
-            <sys_id>c770a2324f94724056b80195f110c7c8</sys_id>
+            <sys_created_on>2017-08-02 16:31:37</sys_created_on>
+            <sys_id>d68af0d64f10830056b80195f110c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Recruitment" display_value="Recruitment" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
+            <sys_ui_section caption="Recruiting Permits" display_value="Recruiting Permits" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-01-17 17:02:51</sys_updated_on>
+            <sys_updated_on>2017-08-02 16:31:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-01-17 17:02:51</sys_created_on>
-            <sys_id>4b70a2324f94724056b80195f110c7c8</sys_id>
+            <sys_created_on>2017-08-02 16:31:37</sys_created_on>
+            <sys_id>5a8af0d64f10830056b80195f110c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Recruitment" display_value="Recruitment" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
+            <sys_ui_section caption="Recruiting Permits" display_value="Recruiting Permits" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-01-17 17:02:51</sys_updated_on>
+            <sys_updated_on>2017-08-02 16:31:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_rec_details</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-01-17 17:02:51</sys_created_on>
-            <sys_id>cb70a2324f94724056b80195f110c7c8</sys_id>
+            <sys_created_on>2017-08-02 16:31:37</sys_created_on>
+            <sys_id>da8af0d64f10830056b80195f110c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Recruitment" display_value="Recruitment" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
+            <sys_ui_section caption="Recruiting Permits" display_value="Recruiting Permits" name="x_vivso_hr_unique_offers" sys_domain="global" view="Default view">2b0c16cf4f807e0056b80195f110c743</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-01-17 17:02:51</sys_updated_on>
+            <sys_updated_on>2017-08-02 16:31:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Recruitment</caption>
+            <caption>Recruiting Permits</caption>
             <header>false</header>
             <name>x_vivso_hr_unique_offers</name>
             <roles/>
@@ -83,16 +97,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2b0c16cf4f807e0056b80195f110c743</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Recruitment</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Recruiting Permits</sys_name>
             <sys_overrides/>
-            <sys_package display_value="HR Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+            <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="HR Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+            <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
             <sys_update_name>sys_ui_section_2b0c16cf4f807e0056b80195f110c743</sys_update_name>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-01-06 01:06:16</sys_updated_on>
+            <sys_updated_on>2017-08-02 16:31:36</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

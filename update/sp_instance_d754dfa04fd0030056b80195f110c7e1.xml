@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1354dfa04fd0030056b80195f110c7e1</sp_column>
+        <sp_widget display_value="unique_offer_approvals">8354dfa04fd0030056b80195f110c7df</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-28 17:14:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d754dfa04fd0030056b80195f110c7e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sp_instance_d754dfa04fd0030056b80195f110c7e1</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-28 17:14:19</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+</record_update>
