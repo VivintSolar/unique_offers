@@ -5,7 +5,7 @@
         <sys_class_name>sc_category_user_criteria_mtom</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-07-14 15:08:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8e513ec44f800f0056b80195f110c7d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Unique Offers.HR Unique Offers</sys_name>

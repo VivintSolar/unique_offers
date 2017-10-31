@@ -57,7 +57,7 @@ function serverActions() {
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-31 22:04:01</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>caaa2fdf4f68b64056b80195f110c745</sys_id>

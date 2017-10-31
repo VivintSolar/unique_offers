@@ -29,7 +29,7 @@ function dayCheck() {
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-17 17:54:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>eb1322724f94724056b80195f110c723</sys_id>
         <sys_mod_count>15</sys_mod_count>
         <sys_name>Trigger Monthly Overview Emails</sys_name>

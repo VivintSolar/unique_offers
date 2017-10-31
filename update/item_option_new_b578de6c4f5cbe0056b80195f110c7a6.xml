@@ -60,7 +60,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-10 16:43:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b578de6c4f5cbe0056b80195f110c7a6</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Offer for</sys_name>

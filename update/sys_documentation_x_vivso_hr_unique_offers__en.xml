@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>erik.stolberg</sys_created_by>
             <sys_created_on>2017-01-05 16:54:51</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>bc9bec4f4f007e0056b80195f110c725</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>Unique Offer</sys_name>

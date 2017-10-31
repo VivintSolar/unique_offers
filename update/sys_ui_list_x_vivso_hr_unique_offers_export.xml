@@ -209,7 +209,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>erik.stolberg</sys_created_by>
             <sys_created_on>2017-08-02 17:45:13</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ac6b4dda4f10830056b80195f110c771</sys_id>

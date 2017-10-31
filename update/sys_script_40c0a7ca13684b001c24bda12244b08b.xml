@@ -59,7 +59,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-14 20:21:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40c0a7ca13684b001c24bda12244b08b</sys_id>

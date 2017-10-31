@@ -12,7 +12,7 @@
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-05-04 04:30:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7f56760d4faa7a4056b80195f110c7e6</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Closed</sys_name>

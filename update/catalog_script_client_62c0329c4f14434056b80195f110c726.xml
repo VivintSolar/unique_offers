@@ -30,7 +30,7 @@
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-07-27 20:00:25</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62c0329c4f14434056b80195f110c726</sys_id>

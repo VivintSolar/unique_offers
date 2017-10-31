@@ -61,7 +61,7 @@
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-02-06 20:34:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ee8052914f7c3a4056b80195f110c7eb</sys_id>
         <sys_mod_count>34</sys_mod_count>
         <sys_name>unique_activity_inprocess_totals</sys_name>

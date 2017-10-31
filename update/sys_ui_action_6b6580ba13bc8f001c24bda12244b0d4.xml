@@ -39,7 +39,7 @@ gs.addInfoMessage("Offer has restarted and is in a Draft state.");]]></script>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-28 22:27:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b6580ba13bc8f001c24bda12244b0d4</sys_id>

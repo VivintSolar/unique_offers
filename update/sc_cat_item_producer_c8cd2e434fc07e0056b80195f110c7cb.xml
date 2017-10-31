@@ -17,7 +17,7 @@
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
-        <list_price>0</list_price>
+        <list_price>0.00</list_price>
         <location/>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -58,7 +58,7 @@ else {
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-06 02:23:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c8cd2e434fc07e0056b80195f110c7cb</sys_id>
         <sys_mod_count>17</sys_mod_count>
         <sys_name>Submit New Unique Offer</sys_name>

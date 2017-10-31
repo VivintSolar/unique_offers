@@ -47,7 +47,7 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-28 21:03:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>0032732613bc8f001c24bda12244b014</sys_id>
+        <sys_id>476295df4f864f4056b80195f110c77e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Contingent Cleared &amp; Offer Sent to Commissions</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
@@ -55,8 +55,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_dictionary_x_vivso_hr_unique_offers_u_contingent_cleared</sys_update_name>
-        <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-08-28 21:03:53</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-31 20:40:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

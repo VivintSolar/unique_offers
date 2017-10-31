@@ -25,7 +25,7 @@
         <sys_class_name>sysauto_report</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-14 15:55:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>91b4228613284b001c24bda12244b075</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Scheduled Execution of Unique Offers Pending DocuSign</sys_name>

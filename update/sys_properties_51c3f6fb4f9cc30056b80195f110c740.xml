@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-07 17:12:11</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>51c3f6fb4f9cc30056b80195f110c740</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>glide.ui.x_vivso_hr_unique_offers_activity.fields</sys_name>

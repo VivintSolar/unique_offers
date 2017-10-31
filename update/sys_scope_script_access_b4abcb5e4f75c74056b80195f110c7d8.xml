@@ -84,7 +84,7 @@
         <sys_class_name>sys_scope_script_access</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-10-16 16:39:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b4abcb5e4f75c74056b80195f110c7d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>JSON</sys_name>

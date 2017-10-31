@@ -611,7 +611,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>erik.stolberg</sys_created_by>
             <sys_created_on>2017-08-28 21:04:28</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6852732613bc8f001c24bda12244b086</sys_id>
