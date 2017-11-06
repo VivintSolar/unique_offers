@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="cmn_location">citySTARTSWITH^cityISNOTEMPTY^NQnameSTARTSWITH^nameISNOTEMPTY^EQ<item endquery="false" field="city" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
-            <item endquery="false" field="city" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="name" goto="false" newquery="true" operator="STARTSWITH" or="false" value=""/>
+        <filter table="sys_user">nameSTARTSWITHtyle^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="tyle"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2017-10-31 21:00:07</last_used>
+        <last_used>2017-11-06 17:39:03</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
-        <sys_created_on>2017-07-27 19:57:03</sys_created_on>
+        <sys_created_on>2017-11-06 17:39:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1d00ba144f14434056b80195f110c77d</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_id>c692afc54f1ecf4056b80195f110c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>mobile</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
-        <sys_update_name>sys_filter_1d00ba144f14434056b80195f110c77d</sys_update_name>
+        <sys_update_name>sys_filter_c692afc54f1ecf4056b80195f110c767</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-10-31 21:00:07</sys_updated_on>
-        <table>cmn_location</table>
+        <sys_updated_on>2017-11-06 17:39:03</sys_updated_on>
+        <table>sys_user</table>
         <title>mobile</title>
         <user display_value="Erik Stolberg">de5577634f133100d59d76601310c796</user>
     </sys_filter>

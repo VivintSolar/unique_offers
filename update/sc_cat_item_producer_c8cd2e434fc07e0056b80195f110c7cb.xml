@@ -17,7 +17,7 @@
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
-        <list_price>0.00</list_price>
+        <list_price>0</list_price>
         <location/>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -25,11 +25,11 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Submit New Unique Offer</name>
-        <no_cart>false</no_cart>
+        <no_cart>true</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
-        <no_quantity>false</no_quantity>
+        <no_quantity>true</no_quantity>
         <no_search>false</no_search>
         <omit_price>false</omit_price>
         <order>0</order>
@@ -58,9 +58,9 @@ else {
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-06 02:23:35</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>c8cd2e434fc07e0056b80195f110c7cb</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Submit New Unique Offer</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@ else {
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sc_cat_item_producer_c8cd2e434fc07e0056b80195f110c7cb</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-10-16 14:50:12</sys_updated_on>
+        <sys_updated_on>2017-11-06 19:03:13</sys_updated_on>
         <table_name>x_vivso_hr_unique_offers</table_name>
         <template/>
         <type>item</type>

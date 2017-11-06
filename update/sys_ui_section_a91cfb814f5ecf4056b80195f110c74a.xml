@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Commission Advance" section_id="a91cfb814f5ecf4056b80195f110c74a" sys_domain="global" table="x_vivso_hr_unique_offers" version="3" view="basic_details">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ca_amount</element>
+            <position>0</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-11-06 19:30:27</sys_created_on>
+            <sys_id>061cfb814f5ecf4056b80195f110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Commission Advance" display_value="Commission Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">a91cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ca_guaranteed</element>
+            <position>1</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-11-06 19:30:27</sys_created_on>
+            <sys_id>861cfb814f5ecf4056b80195f110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Commission Advance" display_value="Commission Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">a91cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ca_guaranteed_user</element>
+            <position>2</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-11-06 19:30:27</sys_created_on>
+            <sys_id>0a1cfb814f5ecf4056b80195f110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Commission Advance" display_value="Commission Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">a91cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-11-06 19:30:27</sys_created_on>
+            <sys_id>8a1cfb814f5ecf4056b80195f110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Commission Advance" display_value="Commission Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">a91cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ca_details</element>
+            <position>4</position>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-11-06 19:30:27</sys_created_on>
+            <sys_id>0e1cfb814f5ecf4056b80195f110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Commission Advance" display_value="Commission Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">a91cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Commission Advance</caption>
+            <header>false</header>
+            <name>x_vivso_hr_unique_offers</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erik.stolberg</sys_created_by>
+            <sys_created_on>2017-11-06 19:30:26</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a91cfb814f5ecf4056b80195f110c74a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Commission Advance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+            <sys_update_name>sys_ui_section_a91cfb814f5ecf4056b80195f110c74a</sys_update_name>
+            <sys_updated_by>erik.stolberg</sys_updated_by>
+            <sys_updated_on>2017-11-06 19:30:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Basic Details" name="basic_details">251cfb814f5ecf4056b80195f110c749</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
