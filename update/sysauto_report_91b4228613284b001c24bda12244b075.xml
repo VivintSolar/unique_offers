@@ -18,8 +18,8 @@
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
-        <run_period>1970-01-02 10:30:00</run_period>
-        <run_start>2017-08-13 16:30:00</run_start>
+        <run_period>1970-01-02 00:00:00</run_period>
+        <run_start>2017-08-13 16:00:00</run_start>
         <run_time>1970-01-01 17:00:00</run_time>
         <run_type>periodically</run_type>
         <sys_class_name>sysauto_report</sys_class_name>
@@ -27,7 +27,7 @@
         <sys_created_on>2017-08-14 15:55:38</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>91b4228613284b001c24bda12244b075</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Scheduled Execution of Unique Offers Pending DocuSign</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sysauto_report_91b4228613284b001c24bda12244b075</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-11-13 17:24:58</sys_updated_on>
+        <sys_updated_on>2017-11-13 20:18:06</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
         <user_list/>
         <zip>false</zip>
