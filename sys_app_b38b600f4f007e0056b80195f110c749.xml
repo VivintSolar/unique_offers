@@ -22,14 +22,14 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-05 16:54:47</sys_created_on>
         <sys_id>b38b600f4f007e0056b80195f110c749</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-11-06 19:37:34</sys_updated_on>
+        <sys_updated_on>2017-11-13 20:12:39</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_vivso_hr_unique.user" name="x_vivso_hr_unique.user">b78bac4f4f007e0056b80195f110c7f4</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>
