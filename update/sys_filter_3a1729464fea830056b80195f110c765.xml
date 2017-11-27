@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="sys_user">nameSTARTSWITHty wil^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="ty wil"/>
+        <filter table="sys_user_group">nameSTARTSWITHops^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="ops"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2017-11-06 17:39:01</last_used>
+        <last_used>2017-11-21 21:29:08</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
-        <sys_created_on>2017-11-06 17:39:01</sys_created_on>
+        <sys_created_on>2017-11-21 21:29:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a192efc54f1ecf4056b80195f110c727</sys_id>
+        <sys_id>3a1729464fea830056b80195f110c765</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>mobile</sys_name>
-        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_name/>
+        <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
-        <sys_update_name>sys_filter_a192efc54f1ecf4056b80195f110c727</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-11-06 17:39:01</sys_updated_on>
-        <table>sys_user</table>
+        <sys_updated_on>2017-11-21 21:29:08</sys_updated_on>
+        <table>sys_user_group</table>
         <title>mobile</title>
         <user display_value="Erik Stolberg">de5577634f133100d59d76601310c796</user>
     </sys_filter>

@@ -2,7 +2,7 @@
 <record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition><![CDATA[new global.DateCheckUtil().isWeekday();]]></condition>
+        <condition><![CDATA[new global.DateCheckUtils().isWeekday();]]></condition>
         <conditional>true</conditional>
         <name>Daily Reminder Email Trigger</name>
         <run_as display_value="Erik Stolberg">de5577634f133100d59d76601310c796</run_as>
@@ -29,7 +29,7 @@ function getApprovals() {
         <sys_created_on>2017-01-17 20:56:08</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f85217724fd4724056b80195f110c7d3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Daily Reminder Email Trigger</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -37,7 +37,7 @@ function getApprovals() {
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sysauto_script_f85217724fd4724056b80195f110c7d3</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-11-13 19:53:38</sys_updated_on>
+        <sys_updated_on>2017-11-20 16:55:13</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

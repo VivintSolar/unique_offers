@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Triggers notification that an offer bypassed approvals</description>
+        <event_name>x_vivso_hr_unique.approval_bypassed</event_name>
+        <fired_by>Unique Offers Workflow</fired_by>
+        <queue/>
+        <suffix>approval_bypassed</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-11-20 20:43:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b303d07d4fe2830056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_vivso_hr_unique.approval_bypassed</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sysevent_register_b303d07d4fe2830056b80195f110c7a5</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-11-20 20:43:27</sys_updated_on>
+        <table>x_vivso_hr_unique_offers</table>
+    </sysevent_register>
+</record_update>

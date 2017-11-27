@@ -5,7 +5,7 @@
         <address_list/>
         <condition><![CDATA[new global.DateCheckUtils().isWeekday();]]></condition>
         <conditional>true</conditional>
-        <group_list name="HR Unique Offers Manager">df387d074f807e0056b80195f110c7ef</group_list>
+        <group_list name="Unique Offers Admin">df387d074f807e0056b80195f110c7ef</group_list>
         <include_detail>false</include_detail>
         <include_with/>
         <name>Scheduled Execution of Unique Offers Pending DocuSign</name>

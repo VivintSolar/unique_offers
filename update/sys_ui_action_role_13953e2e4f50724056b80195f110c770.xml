@@ -16,6 +16,6 @@
         <sys_update_name>sys_ui_action_role_13953e2e4f50724056b80195f110c770</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
         <sys_updated_on>2017-01-17 17:03:54</sys_updated_on>
-        <sys_user_role display_value="x_vivso_hr_unique.user" name="x_vivso_hr_unique.user">b78bac4f4f007e0056b80195f110c7f4</sys_user_role>
+        <sys_user_role display_value="x_vivso_hr_unique.admin" name="x_vivso_hr_unique.admin">b78bac4f4f007e0056b80195f110c7f4</sys_user_role>
     </sys_ui_action_role>
 </record_update>

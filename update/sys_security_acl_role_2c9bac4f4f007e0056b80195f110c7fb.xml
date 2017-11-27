@@ -16,7 +16,7 @@
         <sys_update_name>sys_security_acl_role_2c9bac4f4f007e0056b80195f110c7fb</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
         <sys_updated_on>2017-01-05 16:54:50</sys_updated_on>
-        <sys_user_role display_value="x_vivso_hr_unique.user" name="x_vivso_hr_unique.user">b78bac4f4f007e0056b80195f110c7f4</sys_user_role>
+        <sys_user_role display_value="x_vivso_hr_unique.admin" name="x_vivso_hr_unique.admin">b78bac4f4f007e0056b80195f110c7f4</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

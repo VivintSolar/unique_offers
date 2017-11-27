@@ -91,7 +91,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
 </html>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HR Processing</name>
+        <name>Unique Offer HR Request</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -107,12 +107,12 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-02-08 22:58:47</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e044cdc24fb87a4056b80195f110c758</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name>HR Processing</sys_name>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Unique Offer HR Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -120,7 +120,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sysevent_email_action_e044cdc24fb87a4056b80195f110c758</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-10-25 16:24:28</sys_updated_on>
+        <sys_updated_on>2017-11-21 18:08:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
