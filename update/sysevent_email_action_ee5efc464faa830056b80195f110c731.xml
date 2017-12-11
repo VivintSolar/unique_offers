@@ -22,7 +22,7 @@
         <from/>
         <generation_type>engine</generation_type>
         <importance/>
-        <include_attachments>false</include_attachments>
+        <include_attachments>true</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
@@ -108,7 +108,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ee5efc464faa830056b80195f110c731</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Unique Offer Completed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
@@ -117,7 +117,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sysevent_email_action_ee5efc464faa830056b80195f110c731</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-12-11 16:32:20</sys_updated_on>
+        <sys_updated_on>2017-12-11 18:11:27</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
