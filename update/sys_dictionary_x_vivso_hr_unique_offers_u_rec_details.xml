@@ -52,7 +52,7 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-11 00:36:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>db6295df4f864f4056b80195f110c7a3</sys_id>
+        <sys_id>4581aaafdbce4780eb15a5f74b961987</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Recruitment Details</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_dictionary_x_vivso_hr_unique_offers_u_rec_details</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-10-31 20:40:08</sys_updated_on>
+        <sys_updated_on>2017-11-27 03:55:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

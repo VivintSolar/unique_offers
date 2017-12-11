@@ -9,7 +9,7 @@
             <sys_id>791cfb814f5ecf4056b80195f110c756</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="32d2019a4f10830056b80195f110c754">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
             <sys_user/>
@@ -23,7 +23,7 @@
             <sys_id>f91cfb814f5ecf4056b80195f110c756</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="32d2019a4f10830056b80195f110c754">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
             <sys_user/>
@@ -37,7 +37,7 @@
             <sys_id>7d1cfb814f5ecf4056b80195f110c756</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="32d2019a4f10830056b80195f110c754">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
             <sys_user/>
@@ -51,7 +51,7 @@
             <sys_id>fd1cfb814f5ecf4056b80195f110c756</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="32d2019a4f10830056b80195f110c754">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
             <sys_user/>
@@ -65,7 +65,7 @@
             <sys_id>711cfb814f5ecf4056b80195f110c757</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="251cfb814f5ecf4056b80195f110c749">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
+            <sys_ui_section caption="Retention Advance" display_value="Retention Advance" name="x_vivso_hr_unique_offers" sys_domain="global" view="32d2019a4f10830056b80195f110c754">651cfb814f5ecf4056b80195f110c74a</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-11-06 19:30:27</sys_updated_on>
             <sys_user/>
@@ -79,7 +79,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>erik.stolberg</sys_created_by>
             <sys_created_on>2017-11-06 19:30:26</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>651cfb814f5ecf4056b80195f110c74a</sys_id>
@@ -95,7 +95,7 @@
             <sys_updated_on>2017-11-06 19:30:26</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Basic Details" name="basic_details">251cfb814f5ecf4056b80195f110c749</view>
+            <view display_value="Basic Details" name="basic_details">32d2019a4f10830056b80195f110c754</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

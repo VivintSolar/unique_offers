@@ -9,7 +9,7 @@
         <sys_class_name>sysevent_register</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-11-20 20:43:27</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b303d07d4fe2830056b80195f110c7a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_vivso_hr_unique.approval_bypassed</sys_name>

@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="0d856e4613284b001c24bda12244b0ce">46e135ca4fea830056b80195f110c7f4</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="87c12e23db028780eb15a5f74b961927">46e135ca4fea830056b80195f110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_offer_user</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="0d856e4613284b001c24bda12244b0ce">46e135ca4fea830056b80195f110c7f4</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="87c12e23db028780eb15a5f74b961927">46e135ca4fea830056b80195f110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>opened_at</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="0d856e4613284b001c24bda12244b0ce">46e135ca4fea830056b80195f110c7f4</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="87c12e23db028780eb15a5f74b961927">46e135ca4fea830056b80195f110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="0d856e4613284b001c24bda12244b0ce">46e135ca4fea830056b80195f110c7f4</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="87c12e23db028780eb15a5f74b961927">46e135ca4fea830056b80195f110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_offer_sent_date</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="0d856e4613284b001c24bda12244b0ce">46e135ca4fea830056b80195f110c7f4</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="87c12e23db028780eb15a5f74b961927">46e135ca4fea830056b80195f110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -89,7 +89,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>erik.stolberg</sys_created_by>
             <sys_created_on>2017-11-21 22:16:19</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>46e135ca4fea830056b80195f110c7f4</sys_id>
@@ -103,7 +103,7 @@
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-11-21 22:16:19</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt05856e4613284b001c24bda12244b0ce" name="RPT05856e4613284b001c24bda12244b0ce">0d856e4613284b001c24bda12244b0ce</view>
+            <view display_value="Rpt05856e4613284b001c24bda12244b0ce" name="RPT05856e4613284b001c24bda12244b0ce">87c12e23db028780eb15a5f74b961927</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

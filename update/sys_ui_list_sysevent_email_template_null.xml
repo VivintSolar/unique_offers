@@ -4,122 +4,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>8d18bf8d4f1ecf4056b80195f110c710</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>de69438edb5e03c0eb15a5f74b9619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>collection</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>0118bf8d4f1ecf4056b80195f110c711</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>5269438edb5e03c0eb15a5f74b9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>8118bf8d4f1ecf4056b80195f110c711</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>d269438edb5e03c0eb15a5f74b9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message_html</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>0518bf8d4f1ecf4056b80195f110c711</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>5669438edb5e03c0eb15a5f74b9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message_list</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>cd183b014f5ecf4056b80195f110c772</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>d669438edb5e03c0eb15a5f74b9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message_text</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>41183b014f5ecf4056b80195f110c773</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>5a69438edb5e03c0eb15a5f74b9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sms_alternate</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>c1183b014f5ecf4056b80195f110c773</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>1a690302db9e03c0eb15a5f74b96197e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>subject</element>
-            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8918bf8d4f1ecf4056b80195f110c710</list_id>
+            <list_id display_value="sysevent_email_template" element="NULL" name="sysevent_email_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">da69438edb5e03c0eb15a5f74b9619a3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-11-06 19:12:56</sys_created_on>
-            <sys_id>45183b014f5ecf4056b80195f110c773</sys_id>
+            <sys_created_on>2017-11-09 18:22:57</sys_created_on>
+            <sys_id>9a690302db9e03c0eb15a5f74b96197e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-11-06 19:12:56</sys_updated_on>
+            <sys_updated_on>2017-11-09 18:22:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

@@ -86,7 +86,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-14 15:52:33</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4ba4ae4613e44b001c24bda12244b0dd</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Unique Offers Pending DocuSign</sys_name>

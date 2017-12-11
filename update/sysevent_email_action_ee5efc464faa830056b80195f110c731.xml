@@ -79,7 +79,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <tr class="footer" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 8px; line-height: 1.6em; color: #666666; font-style: italic; margin: 0; padding: 0;">
             <td style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;"></td>
             <td align="center" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;">
-                <p style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">You are receiving this because you are part of Solar Commissions group within Unique Offers.</p>
+                <p style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">You are receiving this because Solar Commissions requires notification when Unique Offers are completed.</p>
             </td>
             <td style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0;"></td>
         </tr>
@@ -93,8 +93,8 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="Solar Commissions">098ab0064faa830056b80195f110c7d8</recipient_groups>
-        <recipient_users/>
+        <recipient_groups/>
+        <recipient_users>b183a4f3db660b40984f55384b9619eb</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -108,7 +108,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ee5efc464faa830056b80195f110c731</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Unique Offer Completed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
@@ -117,7 +117,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sysevent_email_action_ee5efc464faa830056b80195f110c731</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-11-21 18:41:42</sys_updated_on>
+        <sys_updated_on>2017-12-11 16:32:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

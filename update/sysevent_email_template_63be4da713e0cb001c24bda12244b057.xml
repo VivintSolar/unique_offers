@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <message/>
+        <message_html><![CDATA[<div class="center" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; text-align: center; margin: 0; padding: 0;" align="center"><button class="btn btn-green" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857143; color: #eee; display: inline-block; font-weight: normal; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; border-radius: 4px; text-decoration: none; width: 50%; max-width: 90%; background-color: #3fbfad; margin: 10px 0; padding: 10px 15px; border: 1px solid #959497;">${mailto.unique_offer_approval_subject}</button></div>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.unique_offer_approval</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-19 01:28:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>63be4da713e0cb001c24bda12244b057</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>mailto.unique_offer_approval</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sysevent_email_template_63be4da713e0cb001c24bda12244b057</sys_update_name>
+        <sys_updated_by>John.Knudsen</sys_updated_by>
+        <sys_updated_on>2017-09-01 19:17:00</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

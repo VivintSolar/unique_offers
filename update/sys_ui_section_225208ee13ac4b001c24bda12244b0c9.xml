@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="225208ee13ac4b001c24bda12244b0c9" sys_domain="global" table="x_vivso_hr_unique_offers" version="3" view="export">
+    <sys_ui_section caption="" section_id="225208ee13ac4b001c24bda12244b0c9" sys_domain="global" table="x_vivso_hr_unique_offers" version="3" view="Export">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_offer_user</element>
             <position>0</position>
@@ -9,7 +9,7 @@
             <sys_id>40b3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -23,7 +23,7 @@
             <sys_id>c0b3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -37,7 +37,7 @@
             <sys_id>44b3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -51,7 +51,7 @@
             <sys_id>c4b3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -65,7 +65,7 @@
             <sys_id>48b3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -79,7 +79,7 @@
             <sys_id>c8b3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -93,7 +93,7 @@
             <sys_id>4cb3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -107,7 +107,7 @@
             <sys_id>ccb3842213ec4b001c24bda12244b04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -121,7 +121,7 @@
             <sys_id>40b3842213ec4b001c24bda12244b04c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -135,7 +135,7 @@
             <sys_id>c0b3842213ec4b001c24bda12244b04c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -149,7 +149,7 @@
             <sys_id>44b3842213ec4b001c24bda12244b04c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -163,7 +163,7 @@
             <sys_id>c4b3842213ec4b001c24bda12244b04c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_vivso_hr_unique_offers" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">225208ee13ac4b001c24bda12244b0c9</sys_ui_section>
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-15 17:26:10</sys_updated_on>
             <sys_user/>
@@ -193,7 +193,7 @@
             <sys_updated_on>2017-08-15 17:20:20</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Export" name="export">88a8ba984f54434056b80195f110c7df</view>
+            <view display_value="Export" name="Export">33e4e5ba4f68cf00d59d76601310c7cc</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

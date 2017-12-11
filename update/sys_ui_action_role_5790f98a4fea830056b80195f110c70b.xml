@@ -4,7 +4,7 @@
         <sys_class_name>sys_ui_action_role</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-11-21 22:10:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5790f98a4fea830056b80195f110c70b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Restart Offer Workflow.x_vivso_hr_unique.admin</sys_name>

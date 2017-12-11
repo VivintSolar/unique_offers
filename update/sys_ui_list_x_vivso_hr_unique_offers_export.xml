@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_vivso_hr_unique_offers" version="2" view="export">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_vivso_hr_unique_offers" version="2" view="Export">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_offer_user</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_employee_id</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_total_offer_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_ra_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -94,7 +94,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_ca_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -109,7 +109,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_pp_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -124,7 +124,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_rsu_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -139,7 +139,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_relocation_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -154,7 +154,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_total_per_recruit</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
@@ -169,7 +169,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_additional_amount</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
@@ -184,7 +184,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_report_manager</element>
-            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="88a8ba984f54434056b80195f110c7df">ac6b4dda4f10830056b80195f110c771</list_id>
+            <list_id display_value="x_vivso_hr_unique_offers" element="NULL" name="x_vivso_hr_unique_offers" parent="NULL" relationship="NULL" sys_domain="global" view="33e4e5ba4f68cf00d59d76601310c7cc">ac6b4dda4f10830056b80195f110c771</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
@@ -223,7 +223,7 @@
             <sys_updated_by>erik.stolberg</sys_updated_by>
             <sys_updated_on>2017-08-02 17:45:13</sys_updated_on>
             <sys_user/>
-            <view display_value="Export" name="export">88a8ba984f54434056b80195f110c7df</view>
+            <view display_value="Export" name="Export">33e4e5ba4f68cf00d59d76601310c7cc</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -5,7 +5,7 @@
         <address_list/>
         <condition><![CDATA[new global.DateCheckUtils().isWeekday();]]></condition>
         <conditional>true</conditional>
-        <group_list name="Unique Offers Admin">df387d074f807e0056b80195f110c7ef</group_list>
+        <group_list name="HR Unique Offers Manager">df387d074f807e0056b80195f110c7ef</group_list>
         <include_detail>false</include_detail>
         <include_with/>
         <name>Scheduled Execution of Unique Offers Pending DocuSign</name>
@@ -25,7 +25,7 @@
         <sys_class_name>sysauto_report</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-08-14 15:55:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>91b4228613284b001c24bda12244b075</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Scheduled Execution of Unique Offers Pending DocuSign</sys_name>

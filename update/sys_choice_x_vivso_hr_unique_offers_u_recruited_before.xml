@@ -10,14 +10,14 @@
             <language>en</language>
             <name>x_vivso_hr_unique_offers</name>
             <sequence>10</sequence>
-            <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-07-27 20:07:45</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-01 21:04:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4d623a904f54434056b80195f110c72c</sys_id>
+            <sys_id>10b1eeafdbce4780eb15a5f74b961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-07-27 20:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-01 21:04:36</sys_updated_on>
             <value>30</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -29,14 +29,14 @@
             <language>en</language>
             <name>x_vivso_hr_unique_offers</name>
             <sequence>20</sequence>
-            <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-07-27 20:07:56</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-01 21:04:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a4827edc4f14434056b80195f110c718</sys_id>
+            <sys_id>50b1eeafdbce4780eb15a5f74b961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-07-27 20:07:56</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-01 21:04:36</sys_updated_on>
             <value>60</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,33 +48,33 @@
             <language>en</language>
             <name>x_vivso_hr_unique_offers</name>
             <sequence>30</sequence>
-            <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-07-27 20:08:06</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-01 21:04:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f682b2904f54434056b80195f110c7ee</sys_id>
+            <sys_id>90b1eeafdbce4780eb15a5f74b961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-07-27 20:08:06</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-01 21:04:36</sys_updated_on>
             <value>90</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_recruited_before</element>
             <name>x_vivso_hr_unique_offers</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2017-07-27 20:07:46</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-01 21:04:36</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>589299df4f864f4056b80195f110c706</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>d0b1eeafdbce4780eb15a5f74b961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>u_recruited_before</sys_name>
             <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
             <sys_update_name>sys_choice_x_vivso_hr_unique_offers_u_recruited_before</sys_update_name>
-            <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2017-07-27 20:08:06</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-01 21:04:36</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
