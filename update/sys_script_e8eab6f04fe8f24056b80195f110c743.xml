@@ -8,7 +8,7 @@
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
-        <add_message>false</add_message>
+        <add_message>true</add_message>
         <advanced>false</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
@@ -16,12 +16,12 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_vivso_hr_unique_offers">state=4^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+        <filter_condition table="x_vivso_hr_unique_offers">u_final_disposition!=^EQ<item endquery="false" field="u_final_disposition" goto="false" newquery="false" operator="!=" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
-        <message/>
-        <name>Set active to false</name>
+        <message><![CDATA[<p>Offer has been closed.</p>]]></message>
+        <name>Set active to false and state to closed</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,7 +29,7 @@
         <rest_service/>
         <rest_service_text/>
         <rest_variables/>
-        <role_conditions/>
+        <role_conditions>x_vivso_hr_unique.admin</role_conditions>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
@@ -38,12 +38,12 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-24 00:07:33</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e8eab6f04fe8f24056b80195f110c743</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Set active to false</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set active to false and state to closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -51,8 +51,8 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_script_e8eab6f04fe8f24056b80195f110c743</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-08-09 20:30:37</sys_updated_on>
-        <template>active=false^EQ</template>
+        <sys_updated_on>2017-12-12 20:29:05</sys_updated_on>
+        <template>active=false^state=4^EQ</template>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=e8eab6f04fe8f24056b80195f110c743"/>
