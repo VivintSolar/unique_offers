@@ -9,7 +9,7 @@
 	
 	/* Offers Pending Approvals */
 	var pendCount = new GlideAggregate("x_vivso_hr_unique_offers");
-	pendCount.addQuery('active','true');
+	pendCount.addEncodedQuery("state=1^EQ");
 	pendCount.addAggregate('COUNT');
 	pendCount.query();
 	if (pendCount.next())
@@ -20,8 +20,8 @@
 	
 	/* Display pending offers */
 	var activeOffer = new GlideRecord("x_vivso_hr_unique_offers");
-	activeOffer.addQuery("active", true);
-	activeOffer.orderBy('state');
+	activeOffer.addEncodedQuery("state=1^EQ");
+	activeOffer.orderBy('u_offer_user');
 	activeOffer.query();
 	while (activeOffer.next()) {
 		var approvalUser = '';
@@ -50,14 +50,14 @@
         <sys_created_on>2017-08-09 20:26:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5973b9204fe8070056b80195f110c725</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>unique_activity_inprocess_details</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_script_email_5973b9204fe8070056b80195f110c725</sys_update_name>
-        <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-08-10 22:42:39</sys_updated_on>
+        <sys_updated_by>John.Knudsen</sys_updated_by>
+        <sys_updated_on>2018-02-28 16:06:01</sys_updated_on>
     </sys_script_email>
 </record_update>

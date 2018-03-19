@@ -18,7 +18,7 @@ function titleCheck(){
         <sys_class_name>user_criteria</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-09 23:25:50</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5a1beed84f58be0056b80195f110c747</sys_id>

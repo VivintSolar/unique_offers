@@ -102,7 +102,7 @@ body, a, p, li, h1, h2, h3, table, td, th {font-family: Helvetica, Arial, sans-s
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-12-19 18:17:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dc978d474f8f470056b80195f110c729</sys_id>

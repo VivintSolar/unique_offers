@@ -62,13 +62,13 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-02-03 00:35:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0ae0ea0c4fb4f64056b80195f110c74b</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Guaranteed By</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>item_option_new_0ae0ea0c4fb4f64056b80195f110c74b</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
