@@ -6,6 +6,7 @@
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Submit New Unique Offer">c8cd2e434fc07e0056b80195f110c7cb</cat_item>
         <cat_variable>IO:ffca5acd4f6a7a4056b80195f110c768</cat_variable>

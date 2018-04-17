@@ -2,6 +2,7 @@
 <record_update table="sysevent_email_template">
     <sysevent_email_template action="INSERT_OR_UPDATE">
         <collection>sysapproval_approver</collection>
+        <email_layout/>
         <message/>
         <message_html><![CDATA[<div class="center" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; text-align: center; margin: 0; padding: 0;" align="center"><button class="btn btn-green" style="font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857143; color: #eee; display: inline-block; font-weight: normal; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; border-radius: 4px; text-decoration: none; width: 50%; max-width: 90%; background-color: #3fbfad; margin: 10px 0; padding: 10px 15px; border: 1px solid #959497;">${mailto.unique_offer_approval_subject}</button></div>
 <p>&nbsp;</p>]]></message_html>

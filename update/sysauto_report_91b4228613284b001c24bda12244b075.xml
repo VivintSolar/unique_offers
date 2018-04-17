@@ -11,6 +11,9 @@
         <name>Scheduled Execution of Unique Offers Pending DocuSign</name>
         <omit_if_no_records>true</omit_if_no_records>
         <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
         <report display_value="Unique Offers Pending DocuSign">4ba4ae4613e44b001c24bda12244b0dd</report>
         <report_body><![CDATA[<p>The attached report includes&nbsp;pending Unique Offers that are waiting for DocuSign completion.&nbsp;Please follow up and check the appropriate box on the offer record once completed.</p>]]></report_body>
         <report_title>Unique Offers pending DocuSign completion</report_title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="111" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="142" text_index="true" type="collection">
         <element attributes="omit_sys_original=true" label="Additional Amount" max_length="15" name="u_additional_amount" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="u_additional_details" type="string"/>
         <element label="Additional Request" max_length="40" name="u_additional_request" type="boolean"/>

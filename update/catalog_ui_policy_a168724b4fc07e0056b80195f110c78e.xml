@@ -5,6 +5,7 @@
         <applies_catalog>true</applies_catalog>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:08cd2e434fc07e0056b80195f110c7cf=true^EQ</catalog_conditions>
         <catalog_item display_value="Submit New Unique Offer">c8cd2e434fc07e0056b80195f110c7cb</catalog_item>
@@ -25,7 +26,7 @@
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-01-06 03:10:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a168724b4fc07e0056b80195f110c78e</sys_id>

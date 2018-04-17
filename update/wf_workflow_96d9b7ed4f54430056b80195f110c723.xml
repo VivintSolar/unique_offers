@@ -94,6 +94,7 @@
         <x>20</x>
         <y>20</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4a702e6c4f218f0056b80195f110c788"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Begin">4a702e6c4f218f0056b80195f110c788</activity>
         <condition>true</condition>
@@ -143,6 +144,29 @@
         <x>133</x>
         <y>213</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=86702e6c4f218f0056b80195f110c787"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86702e6c4f218f0056b80195f110c787</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>c6702e6c4f218f0056b80195f110c787</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>var openApprovals = new GlideRecord("sysapproval_approver");&#13;
+openApprovals.addQuery("sysapproval", current.sys_id);&#13;
+openApprovals.addQuery("state", "requested");&#13;
+openApprovals.query();&#13;
+while (openApprovals.next()) {&#13;
+	openApprovals.state = 'cancelled';&#13;
+	openApprovals.comments = 'Parallel approval rejected.';&#13;
+	openApprovals.update();&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>86702e6c4f218f0056b80195f110c787</document_key>
@@ -214,6 +238,7 @@ while (openApprovals.next()) {&#13;
         <x>351</x>
         <y>631</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=06702e6c4f218f0056b80195f110c784"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -242,6 +267,21 @@ while (openApprovals.next()) {&#13;
         <x>133</x>
         <y>124</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=86702e6c4f218f0056b80195f110c786"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86702e6c4f218f0056b80195f110c786</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>c6702e6c4f218f0056b80195f110c786</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>86702e6c4f218f0056b80195f110c786</document_key>
@@ -305,6 +345,94 @@ while (openApprovals.next()) {&#13;
         <x>135</x>
         <y>393</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c6702e6c4f218f0056b80195f110c784"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>06702e6c4f218f0056b80195f110c785</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>An offer for ${u_offer_user} has been rejected and is in a Draft state.&#13;
+&#13;
+Click ${URI_REF} to view and re-route for approvals.</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>0a702e6c4f218f0056b80195f110c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>42702e6c4f218f0056b80195f110c785</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>A rejected offer is in Draft</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>8e702e6c4f218f0056b80195f110c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>c6702e6c4f218f0056b80195f110c785</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>df387d074f807e0056b80195f110c7ef</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>ca702e6c4f218f0056b80195f110c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>c6702e6c4f218f0056b80195f110c784</document_key>
@@ -441,6 +569,21 @@ Click ${URI_REF} to view and re-route for approvals.</value>
         <x>135</x>
         <y>304</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8e702e6c4f218f0056b80195f110c786"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8e702e6c4f218f0056b80195f110c786</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>ce702e6c4f218f0056b80195f110c786</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>state=0^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>8e702e6c4f218f0056b80195f110c786</document_key>
@@ -504,6 +647,37 @@ Click ${URI_REF} to view and re-route for approvals.</value>
         <x>136</x>
         <y>497</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8e702e6c4f218f0056b80195f110c787"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8e702e6c4f218f0056b80195f110c787</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>82702e6c4f218f0056b80195f110c788</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>state!=0^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8e702e6c4f218f0056b80195f110c787</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-09-28 16:46:06</sys_created_on>
+        <sys_id>ce702e6c4f218f0056b80195f110c787</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-09-28 16:46:06</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>8e702e6c4f218f0056b80195f110c787</document_key>

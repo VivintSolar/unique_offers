@@ -5,7 +5,7 @@
         <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2018-03-19 16:34:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>334f8000138593001c24bda12244b06d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Submit New Unique Offer.Unique Offers</sys_name>

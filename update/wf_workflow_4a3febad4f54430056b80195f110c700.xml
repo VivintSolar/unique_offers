@@ -10,10 +10,10 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,0f14abb14f98430056b80195f110c766,063eb7e14f94430056b80195f110c7d0|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,2d34ebb14f98430056b80195f110c710,063eb7e14f94430056b80195f110c7d0|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,851ffbe14f94430056b80195f110c74c,063eb7e14f94430056b80195f110c7d0|063eb7e14f94430056b80195f110c7d0,023febad4f54430056b80195f110c701</expected_sequences>
+        <expected_sequences>0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,0f14abb14f98430056b80195f110c766,2d34ebb14f98430056b80195f110c710,851ffbe14f94430056b80195f110c74c,063eb7e14f94430056b80195f110c7d0,023febad4f54430056b80195f110c701</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,0f14abb14f98430056b80195f110c766,063eb7e14f94430056b80195f110c7d0,023febad4f54430056b80195f110c701|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,0f14abb14f98430056b80195f110c766,943eb7e14f94430056b80195f110c708|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,2d34ebb14f98430056b80195f110c710,063eb7e14f94430056b80195f110c7d0,023febad4f54430056b80195f110c701|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,2d34ebb14f98430056b80195f110c710,943eb7e14f94430056b80195f110c708|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,851ffbe14f94430056b80195f110c74c,943eb7e14f94430056b80195f110c708|0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,851ffbe14f94430056b80195f110c74c,063eb7e14f94430056b80195f110c7d0,023febad4f54430056b80195f110c701</full_sequences>
+        <full_sequences>0e3febad4f54430056b80195f110c700,944eb7e14f94430056b80195f110c7f6,0f14abb14f98430056b80195f110c766,2d34ebb14f98430056b80195f110c710,851ffbe14f94430056b80195f110c74c,063eb7e14f94430056b80195f110c7d0,943eb7e14f94430056b80195f110c708,023febad4f54430056b80195f110c701</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Unique Offers Approval 3 (sub)</name>
@@ -32,9 +32,9 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2017-07-31 21:45:36</sys_created_on>
         <sys_id>ed2fabad4f54430056b80195f110c7fd</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-08-14 20:25:51</sys_updated_on>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-05 19:59:55</sys_updated_on>
         <table>x_vivso_hr_unique_offers</table>
         <timezone/>
         <validated>true</validated>
@@ -94,6 +94,7 @@
         <x>20</x>
         <y>20</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0e3febad4f54430056b80195f110c700"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Begin">0e3febad4f54430056b80195f110c700</activity>
         <condition>true</condition>
@@ -143,6 +144,345 @@
         <x>474</x>
         <y>126</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0f14abb14f98430056b80195f110c766"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>0324e7fd4f58430056b80195f110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>0724e7fd4f58430056b80195f110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>0b24e7fd4f58430056b80195f110c79f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>0b24e7fd4f58430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>0f24e7fd4f58430056b80195f110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>4324e7fd4f58430056b80195f110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:49</sys_created_on>
+        <sys_id>4324e7fd4f58430056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:49</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>4724e7fd4f58430056b80195f110c79f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>4724e7fd4f58430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>4b24e7fd4f58430056b80195f110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>4f24e7fd4f58430056b80195f110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>8324e7fd4f58430056b80195f110c79f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>8324e7fd4f58430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>8724e7fd4f58430056b80195f110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>8b24e7fd4f58430056b80195f110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>8f24e7fd4f58430056b80195f110c79f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>8f24e7fd4f58430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>c324e7fd4f58430056b80195f110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>1970-01-02 00:00:00</value>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>c724e7fd4f58430056b80195f110c7a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>cb24e7fd4f58430056b80195f110c79f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>486310d34f7fba0056b80195f110c773</value>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>cb24e7fd4f58430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>cf24e7fd4f58430056b80195f110c79e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0f14abb14f98430056b80195f110c766</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:35:48</sys_created_on>
+        <sys_id>cf24e7fd4f58430056b80195f110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:35:48</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>0f14abb14f98430056b80195f110c766</document_key>
@@ -551,6 +891,345 @@ answer = 0;</value>
         <x>474</x>
         <y>18</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=851ffbe14f94430056b80195f110c74c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>222f7be14f94430056b80195f110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>262f7be14f94430056b80195f110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>2a2f7be14f94430056b80195f110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>2a2f7be14f94430056b80195f110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>2e2f7be14f94430056b80195f110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>622f7be14f94430056b80195f110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>622f7be14f94430056b80195f110c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>662f7be14f94430056b80195f110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>662f7be14f94430056b80195f110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>6a2f7be14f94430056b80195f110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>6e2f7be14f94430056b80195f110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>a22f7be14f94430056b80195f110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>a22f7be14f94430056b80195f110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>a62f7be14f94430056b80195f110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>aa2f7be14f94430056b80195f110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>ae2f7be14f94430056b80195f110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>ae2f7be14f94430056b80195f110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>e22f7be14f94430056b80195f110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>1970-01-02 00:00:00</value>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>e62f7be14f94430056b80195f110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>ea2f7be14f94430056b80195f110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>1a43d0db4f3fba0056b80195f110c706</value>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>ea2f7be14f94430056b80195f110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>ee2f7be14f94430056b80195f110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>851ffbe14f94430056b80195f110c74c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:55:16</sys_created_on>
+        <sys_id>ee2f7be14f94430056b80195f110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:55:16</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>851ffbe14f94430056b80195f110c74c</document_key>
@@ -959,6 +1638,7 @@ answer = 0;</value>
         <x>1195</x>
         <y>362</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=023febad4f54430056b80195f110c701"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -987,6 +1667,345 @@ answer = 0;</value>
         <x>475</x>
         <y>234</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2d34ebb14f98430056b80195f110c710"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>2144ebb14f98430056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>2544ebb14f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>2944ebb14f98430056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>2d44ab314f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>2d44ebb14f98430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:15</sys_created_on>
+        <sys_id>2d44ebb14f98430056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:15</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>6144ebb14f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>6544ebb14f98430056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>6944ab314f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>6944ebb14f98430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>6944ebb14f98430056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>6d44ebb14f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>a144ab314f98430056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>a144ebb14f98430056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>a544ebb14f98430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>8293dc934f7fba0056b80195f110c7e8</value>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>a544ebb14f98430056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>a944ebb14f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>ad44ebb14f98430056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>1970-01-02 00:00:00</value>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>e144ebb14f98430056b80195f110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>e544ebb14f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>e944ebb14f98430056b80195f110c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>ed44ab314f98430056b80195f110c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d34ebb14f98430056b80195f110c710</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-08-01 15:36:14</sys_created_on>
+        <sys_id>ed44ebb14f98430056b80195f110c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-08-01 15:36:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>2d34ebb14f98430056b80195f110c710</document_key>
@@ -1395,6 +2414,7 @@ answer = 0;</value>
         <x>891</x>
         <y>94</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=063eb7e14f94430056b80195f110c7d0"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Join Approvals">063eb7e14f94430056b80195f110c7d0</activity>
         <condition>activity.result == 'complete'</condition>
@@ -1465,6 +2485,7 @@ answer = 0;</value>
         <x>126</x>
         <y>333</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=944eb7e14f94430056b80195f110c7f6"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Parallel Approvals">944eb7e14f94430056b80195f110c7f6</activity>
         <condition>true</condition>
@@ -1514,6 +2535,21 @@ answer = 0;</value>
         <x>668</x>
         <y>437</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=943eb7e14f94430056b80195f110c708"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>943eb7e14f94430056b80195f110c708</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2017-07-31 22:51:00</sys_created_on>
+        <sys_id>d43eb7e14f94430056b80195f110c708</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2017-07-31 22:51:00</sys_updated_on>
+        <value>632eb7e14f94430056b80195f110c795</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>943eb7e14f94430056b80195f110c708</document_key>
