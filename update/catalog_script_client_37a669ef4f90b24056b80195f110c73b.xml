@@ -30,9 +30,12 @@
 	var s = new RegExp('\\D+');
 	var chk2 = s.test(newValue);
 	
-	if (chk1 || chk2) {
+	/* purpose: verifies entered value <$3000 */
+	var chk3 = parseInt(newValue) > 3000;
+	
+	if (chk1 || chk2 || chk3) {
 		g_form.clearValue('u_ca_amount');
-		g_form.addErrorMessage("Please only enter whole numbers in the Amount field.");
+		g_form.addErrorMessage("Please only enter whole numbers in the Amount field. Max amount is $3000.");
 	}
 	
 }]]></script>
@@ -43,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>37a669ef4f90b24056b80195f110c73b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Validation for u_ca_amount</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
@@ -52,7 +55,7 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>catalog_script_client_37a669ef4f90b24056b80195f110c73b</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2018-03-27 15:54:16</sys_updated_on>
+        <sys_updated_on>2018-04-24 18:08:59</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
