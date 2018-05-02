@@ -24,7 +24,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>false</include_none>
-        <instructions><![CDATA[123]]></instructions>
+        <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -61,7 +61,7 @@
         <sys_created_on>2017-01-10 15:51:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f5dc06a84f5cbe0056b80195f110c772</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>PLEASE SELECT ONE OR MORE OF THE FOLLOWING</sys_name>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>item_option_new_f5dc06a84f5cbe0056b80195f110c772</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-01-10 16:01:20</sys_updated_on>
+        <sys_updated_on>2018-05-02 16:49:21</sys_updated_on>
         <table/>
         <tooltip/>
         <type>11</type>
