@@ -6,9 +6,9 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_vivso_hr_unique_offers">state=3^u_docusign_req=true^u_docusign_completed=false^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        <filter table="x_vivso_hr_unique_offers">state=3^u_docusign_req=true^u_docusign_signedISEMPTY^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
             <item endquery="false" field="u_docusign_req" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="u_docusign_completed" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="u_docusign_signed" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Offers waiting for DocuSign completion</hint>
@@ -19,7 +19,7 @@
         <mobile_title>HR Unique Offers</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_vivso_hr_unique_offers</name>
-        <order>100</order>
+        <order>110</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -33,8 +33,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>25e0455a4f10830056b80195f110c73a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>-Waiting on DocuSign</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Waiting on DocuSign</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -42,9 +42,9 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_app_module_25e0455a4f10830056b80195f110c73a</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-11-06 19:29:28</sys_updated_on>
+        <sys_updated_on>2018-08-16 21:05:36</sys_updated_on>
         <timeline_page/>
-        <title>-Waiting on DocuSign</title>
+        <title>Waiting on DocuSign</title>
         <u_basic_module/>
         <u_count_color/>
         <u_count_filter/>

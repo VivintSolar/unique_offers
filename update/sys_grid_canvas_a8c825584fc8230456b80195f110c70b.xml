@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2018-08-16 21:31:27">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA New Tab 2">acc825584fc8230456b80195f110c70a</legacy_page>
+        <name>PA New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2018-08-16 20:52:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a8c825584fc8230456b80195f110c70b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab 2</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sys_grid_canvas_a8c825584fc8230456b80195f110c70b</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2018-08-16 20:52:19</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

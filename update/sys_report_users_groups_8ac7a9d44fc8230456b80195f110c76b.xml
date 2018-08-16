@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Unique Offers Total Offer Amounts by Month">06c7a9d44fc8230456b80195f110c76b</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2018-08-16 20:48:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8ac7a9d44fc8230456b80195f110c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>06c7a9d44fc8230456b80195f110c76b</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>sys_report_users_groups_8ac7a9d44fc8230456b80195f110c76b</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2018-08-16 20:48:03</sys_updated_on>
+        <user_id display_value="Erik Stolberg">de5577634f133100d59d76601310c796</user_id>
+    </sys_report_users_groups>
+</record_update>

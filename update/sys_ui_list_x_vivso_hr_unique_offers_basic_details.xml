@@ -178,11 +178,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>erik.stolberg</sys_created_by>
-            <sys_created_on>2018-03-01 21:02:53</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_created_on>2017-11-06 19:34:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>951020d6db68df40eacd10825b9619f3</sys_id>
+            <sys_id>7b1d7b814f5ecf4056b80195f110c75d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_vivso_hr_unique_offers</sys_name>
             <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
@@ -191,8 +191,8 @@
             <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
             <sys_update_name>sys_ui_list_x_vivso_hr_unique_offers_basic_details</sys_update_name>
             <sys_updated_by>erik.stolberg</sys_updated_by>
-            <sys_updated_on>2018-03-01 21:02:53</sys_updated_on>
-            <sys_user display_value="Erik Stolberg">de5577634f133100d59d76601310c796</sys_user>
+            <sys_updated_on>2017-11-06 19:34:57</sys_updated_on>
+            <sys_user/>
             <view display_value="Basic Details" name="basic_details">32d2019a4f10830056b80195f110c754</view>
             <view_name/>
         </sys_ui_list>

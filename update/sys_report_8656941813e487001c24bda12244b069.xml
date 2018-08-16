@@ -43,7 +43,6 @@
         <filter table="x_vivso_hr_unique_offers">state=3^active=true^u_docusign_req=true^u_docusign_completed=false^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
             <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="u_docusign_req" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="u_docusign_completed" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <from/>

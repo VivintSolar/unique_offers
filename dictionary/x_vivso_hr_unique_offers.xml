@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="165" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Unique Offer" max_length="40" name="x_vivso_hr_unique_offers" sizeclass="209" text_index="true" type="collection">
         <element attributes="omit_sys_original=true" label="Additional Amount" max_length="15" name="u_additional_amount" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="u_additional_details" type="string"/>
         <element label="Additional Request" max_length="40" name="u_additional_request" type="boolean"/>
@@ -8,11 +8,12 @@
         <element label="CA Details" max_length="4000" name="u_ca_details" type="string"/>
         <element label="Guaranteed" max_length="40" name="u_ca_guaranteed" type="boolean"/>
         <element label="Guaranteed By" max_length="40" name="u_ca_guaranteed_user" type="string"/>
+        <element label="Original COJ received" max_length="40" name="u_coj_received" type="glide_date"/>
         <element label="Commission Advance" max_length="40" name="u_commission_advance" type="boolean"/>
-        <element label="Contingent Cleared &amp; Offer Sent to Commissions" max_length="40" name="u_contingent_cleared" type="boolean"/>
         <element label="Current Employee" max_length="40" name="u_current_employee" type="boolean"/>
-        <element label="DocuSign completed" max_length="40" name="u_docusign_completed" type="boolean"/>
         <element label="DocuSign required" max_length="40" name="u_docusign_req" read_only="true" type="boolean"/>
+        <element label="DocuSign sent" max_length="40" name="u_docusign_sent" type="glide_date"/>
+        <element label="DocuSign signed" max_length="40" name="u_docusign_signed" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="40" name="u_employee_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Final Disposition" max_length="40" name="u_final_disposition" type="string">
@@ -27,8 +28,10 @@
         <element attributes="edge_encryption_enabled=true" label="Quarterly Install Criteria (Vivint Inc)" max_length="40" name="u_install_criteria_inc" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Quarterly Install Criteria (Vivint Solar)" max_length="40" name="u_install_criteria_solar" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification Notes" max_length="4000" name="u_justification_notes" type="string"/>
+        <element label="Last contacted" max_length="40" name="u_last_contacted" type="glide_date"/>
         <element label="Offer Letter required" max_length="40" name="u_offer_letter_req" read_only="true" type="boolean"/>
-        <element label="Offer Letter signed" max_length="40" name="u_offer_letter_signed" type="boolean"/>
+        <element label="Offer Letter sent" max_length="40" name="u_offer_letter_sent" type="glide_date"/>
+        <element label="Offer Letter signed" max_length="40" name="u_offer_letter_signed" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Offer Position" max_length="40" name="u_offer_position" type="string">
             <choice>
                 <element label="Solar Sales Manager" sequence="0" value="SM"/>
@@ -40,6 +43,7 @@
         <element label="Offer Sent Date" max_length="40" name="u_offer_sent_date" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Offer for" max_length="40" name="u_offer_user" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="On Permits" max_length="40" name="u_on_permits" type="string"/>
+        <element label="Paid" max_length="40" name="u_paid" type="boolean"/>
         <element label="Personal Permits" max_length="40" name="u_personal_permit" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
         <element attributes="omit_sys_original=true" label="PP Amount" max_length="15" name="u_pp_amount" type="decimal"/>

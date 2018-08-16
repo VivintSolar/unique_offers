@@ -34,12 +34,12 @@
         <sys_created_by>erik.stolberg</sys_created_by>
         <sys_created_on>2018-05-14 16:04:11</sys_created_on>
         <sys_id>1f512082130edf001c24bda12244b0c3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2018-05-14 16:15:18</sys_updated_on>
+        <sys_updated_on>2018-05-14 16:19:38</sys_updated_on>
         <table>x_vivso_hr_unique_offers</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Unique Offers">7fd4b15f4f847e0056b80195f110c732</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

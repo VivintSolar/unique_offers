@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Unique Offers">42d3ed504fc8230456b80195f110c769</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_vivso_hr_unique.admin</identity>
+        <read>true</read>
+        <role display_value="x_vivso_hr_unique.admin" name="x_vivso_hr_unique.admin">b78bac4f4f007e0056b80195f110c7f4</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>erik.stolberg</sys_created_by>
+        <sys_created_on>2018-08-16 20:56:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>81a961984fc8230456b80195f110c734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_vivso_hr_unique.admin</sys_name>
+        <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_81a961984fc8230456b80195f110c734</sys_update_name>
+        <sys_updated_by>erik.stolberg</sys_updated_by>
+        <sys_updated_on>2018-08-16 20:56:11</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>

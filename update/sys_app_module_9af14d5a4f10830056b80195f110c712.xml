@@ -8,16 +8,16 @@
         <device_type/>
         <filter/>
         <hint>Dashboard showing statistics</hint>
-        <homepage display_value="Unique Offers">90ca081413e487001c24bda12244b0e9</homepage>
+        <homepage/>
         <image/>
-        <link_type>HOMEPAGE</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
         <mobile_title>Offer Overview</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
         <order>5</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>/$pa_dashboard.do?sysparm_dashboard=42d3ed504fc8230456b80195f110c769</query>
         <report/>
         <roles/>
         <survey/>
@@ -29,8 +29,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9af14d5a4f10830056b80195f110c712</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Offer Overview</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Overview Dashboard</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unique Offers" source="x_vivso_hr_unique">b38b600f4f007e0056b80195f110c749</sys_package>
         <sys_policy/>
@@ -38,9 +38,9 @@
         <sys_scope display_value="Unique Offers">b38b600f4f007e0056b80195f110c749</sys_scope>
         <sys_update_name>sys_app_module_9af14d5a4f10830056b80195f110c712</sys_update_name>
         <sys_updated_by>erik.stolberg</sys_updated_by>
-        <sys_updated_on>2017-12-12 20:24:17</sys_updated_on>
+        <sys_updated_on>2018-08-16 20:55:39</sys_updated_on>
         <timeline_page/>
-        <title>Offer Overview</title>
+        <title>Overview Dashboard</title>
         <u_basic_module/>
         <u_count_color/>
         <u_count_filter/>
